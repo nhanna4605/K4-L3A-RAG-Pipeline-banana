@@ -1,0 +1,1298 @@
+{
+  "top_k": 5,
+  "score_threshold": 0.51,
+  "A": [
+    {
+      "id": "G01",
+      "question": "Một cơ sở đào tạo được sử dụng tối đa bao nhiêu phương thức tuyển sinh?",
+      "expected_context": "Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm xét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.",
+      "expected_answer": "Tối đa 05 phương thức tuyển sinh, không tính xét tuyển thẳng, xét tuyển đối tượng cử tuyển và xét tuyển đối tượng dự bị đại học.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "Bộ dự kiến các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Tuy nhiên, mỗi ngành, chương trình chỉ được áp dụng ba phương thức, giảm hai so với năm nay. Từ năm 2028, con số này giảm xuống chỉ còn một phương thức với một ngành, chương trình.",
+        "phù hợp với năng lực và sức khỏe của thí sinh.\nĐiều 6. Phương thức tuyển sinh và nguồn tuyển\n1. Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm\nxét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.\n2. Mỗi phương thức tuyển sinh phải quy định rõ các tiêu chí đánh giá, xét\ntuyển, cách thức tính điểm xét, điều kiện trúng tuyển trong đó:\na) Các tiêu chí dùng để đánh giá, xét tuyển phải dựa trên yêu cầu về kiến",
+        "Cụ thể, Bộ vẫn [giới hạn](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397.html) phương thức xét tuyển đại học nhưng theo lộ trình. Năm 2027, các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Mỗi ngành, chương trình đào tạo sẽ được áp dụng ba phương thức, thay vì một như dự thảo ban đầu.",
+        "Nhưng Bộ Giáo dục và Đào tạo [dự kiến sửa quy chế tuyển sinh](https://vnexpress.net/bo-giao-duc-va-dao-tao-doi-y-lui-lich-siet-phuong-thuc-tuyen-sinh-dai-hoc-5121531.html). Cụ thể, năm 2027, các trường có tối đa ba phương thức tuyển sinh cho một ngành, giảm hai so với năm nay. Và từ năm 2028 - thời điểm con chị Hà thi tốt nghiệp, một ngành chỉ được xét bằng một cách."
+      ],
+      "ids": [
+        "news/news_01.md::chunk-2",
+        "news/news_03.md::chunk-2",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-33",
+        "news/news_04.md::chunk-2",
+        "news/news_05.md::chunk-3"
+      ],
+      "sources": [
+        "news_01.md",
+        "news_03.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_04.md",
+        "news_05.md"
+      ],
+      "titles": [
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Đổi lộ trình siết phương thức tuyển sinh đại học 2027",
+        "Phụ huynh, thí sinh 'chới với' vì dự kiến siết phương thức tuyển sinh đại học"
+      ],
+      "scores": [
+        0.7358113527297974,
+        0.7256263494491577,
+        0.7172569036483765,
+        0.692240834236145,
+        0.6790452003479004
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G02",
+      "question": "Mức điểm ưu tiên khu vực đối với KV1, KV2-NT, KV2 và KV3 là bao nhiêu?",
+      "expected_context": "Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực 2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên",
+      "expected_answer": "Khu vực 1 (KV1) được 0,75 điểm; khu vực 2 nông thôn (KV2-NT) được 0,50 điểm; khu vực 2 (KV2) được 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "quyền quy định tại Phụ lục I của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực\n2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3\n(KV3) không được tính điểm ưu tiên;\nb) Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm\ntrường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung\ncấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương",
+        "nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng;\nc) Thí sinh được hưởng chính sách ưu tiên khu vực theo quy định trong\nnăm tốt nghiệp THPT (hoặc trung cấp, trung học nghề) và một năm kế tiếp.\n2. Ưu tiên theo đối tượng chính sách quy định tại Phụ lục II của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho nhóm đối tượng UT1 (gồm các đối\ntượng 01 đến 03) là 2,00 điểm và cho nhóm đối tượng UT2 (gồm các đối tượng\n04 đến 06) là 1,00 điểm;",
+        "26\nPHỤ LỤC I\nKHU VỰC ƯU TIÊN\n(Kèm theo Quy chế tuyển sinh các ngành đào tạo trình độ đại học\nvà ngành Giáo dục Mầm non trình độ cao đẳng)\nKhu vực Mô tả khu vực và điều kiện\nCác xã vùng đồng bào dân tộc thiểu số và miền núi, xã khu vực I, II,\nKhu vực 1 III; các xã có thôn vùng đồng bào dân tộc thiểu số và miền núi, thôn\n(KV1) đặc biệt khó khăn; các xã/phường hải đảo/đặc khu; các xã/phường\nbiên giới đất liền.\nKhu vực 2 nông\nCác địa phương không thuộc KV1, KV2, KV3.\nthôn (KV2-NT)",
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "Điều 42. Điểm ưu tiên\n1. Xét công nhận tốt nghiệp THPT tính theo 3 diện gồm Diện 1, Diện 2,\nDiện 3; trong đó, thí sinh Diện 1 là những thí sinh bình thường không được cộng\nđiểm ưu tiên; thí sinh Diện 2 và Diện 3 được cộng điểm ưu tiên.\n2. Diện 2: Cộng 0,25 điểm đối với thí sinh thuộc một trong những đối tượng\nsau:\na) Thương binh, bệnh binh, người hưởng chính sách như thương binh bị\nsuy giảm khả năng lao động dưới 81 % (đối với GDTX);"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-46",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-47",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-129",
+        "news/news_02.md::chunk-3",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-278"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_02.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.7366836071014404,
+        0.6324500441551208,
+        0.6207359433174133,
+        0.5662133097648621,
+        0.5510025024414062
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G03",
+      "question": "Khu vực tuyển sinh của thí sinh được xác định dựa vào đâu?",
+      "expected_context": "Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng",
+      "expected_answer": "Xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề). Nếu thời gian học dài nhất tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "quyền quy định tại Phụ lục I của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực\n2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3\n(KV3) không được tính điểm ưu tiên;\nb) Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm\ntrường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung\ncấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương",
+        "giá và đối sánh kết quả học tập của sinh viên trúng tuyển các năm trước; có trách\nnhiệm xử lý đảm bảo quyền lợi của thí sinh khi phát sinh các tình huống, sự cố\nảnh hưởng đến kết quả thi, kết quả trúng tuyển của thí sinh.\n9. Tuyển sinh của các chương trình đào tạo đặc thù, đào tạo đặt hàng theo\ncác đề án, nhiệm vụ được Chính phủ, Thủ tướng Chính phủ phê duyệt thực hiện\ntheo đề án.\nĐiều 7. Chính sách ưu tiên trong tuyển sinh\n1. Ưu tiên theo khu vực thực hiện theo đơn vị hành chính do cấp có thẩm",
+        "\"Các cơ sở đào tạo được quyết định việc sử dụng kết quả kỳ thi hoặc các phương thức tuyển sinh khác theo quy định\", trích báo cáo.\n\nTheo Bộ, ưu điểm của cách làm này là tổ chức thống nhất trên phạm vi toàn quốc nhưng thí sinh dự thi tại địa phương, giảm đáng kể chi phí đi lại, ăn ở và áp lực xã hội so với mô hình tổ chức nhiều kỳ thi trước đây. Bên cạnh đó, dữ liệu là cơ sở để đánh giá, đối sánh chất lượng giáo dục giữa các địa phương, cơ sở giáo dục và phục vụ công tác hoạch định chính sách.",
+        "chung theo nhóm cơ sở đào tạo để xác định điều kiện trúng tuyển và lập danh",
+        "Mỗi phương thức phải đảm bảo cơ hội cho tất cả thí sinh tham gia xét tuyển, quy định rõ các tiêu chí đánh giá, xét tuyển, cách thức tính điểm xét, bảo đảm chỉ có duy nhất một thang điểm.\n\nVí dụ, trường đại học A khi tuyển sinh ngành Công nghệ thông tin chỉ được dùng một phương thức là xét điểm thi tốt nghiệp THPT, hoặc điểm thi đánh giá năng lực, hoặc học bạ, thay vì được dùng đồng thời như hiện nay."
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-46",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-45",
+        "news/news_08.md::chunk-2",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-21",
+        "news/news_01.md::chunk-3"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_08.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_01.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Giữ kỳ thi tốt nghiệp THPT với 'đa mục tiêu'",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Dự kiến siết phương thức xét tuyển đại học 2027"
+      ],
+      "scores": [
+        0.6402339935302734,
+        0.621340274810791,
+        0.6183561086654663,
+        0.6178660988807678,
+        0.6143661141395569
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G04",
+      "question": "Tổng điểm cộng gồm điểm thưởng và điểm khuyến khích bị giới hạn ở mức nào?",
+      "expected_context": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến khích không vượt quá 10% điểm tối đa của thang điểm xét tuyển",
+      "expected_answer": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng và điểm khuyến khích không được vượt quá 10% điểm tối đa của thang điểm xét tuyển.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "giải tư cuộc thi khoa học kỹ thuật cấp quốc gia hoặc giải nhì cấp tỉnh hoặc Huy\nchương Bạc được cộng 1,5 điểm; giải ba cấp tỉnh hoặc Huy chương Đồng được\ncộng 1,0 điểm;\nb) Đối với giải đồng đội: Chỉ cộng điểm đối với giải quốc gia; số lượng cầu\nthủ, vận động viên, diễn viên của giải đồng đội theo quy định cụ thể của Ban Tổ\nchức từng giải; mức điểm khuyến khích được cộng cho các cá nhân trong giải\nđồng đội được thực hiện như đối với giải cá nhân quy định tại điểm này.",
+        "Tổng điểm cộng tối đa với một thí sinh năm nay là 3/30. Vì vậy, dù cả nước chỉ có [5 thủ khoa](https://vnexpress.net/5-thu-khoa-dat-diem-tuyet-doi-30-30-5091518.html) đạt 30/30 điểm tổ hợp ba môn thi tốt nghiệp THPT, các trường vẫn ghi nhận hàng trăm thí sinh có điểm xét tuyển tuyệt đối, thậm chí cao hơn nhờ các loại điểm cộng nói trên.",
+        "61\nĐiều 43. Điểm khuyến khích\nNgười học tham gia các cuộc thi và các hoạt động dưới đây trong thời gian\nhọc ở cấp THPT được cộng điểm khuyến khích để xét công nhận tốt nghiệp\nTHPT:\n1. Đoạt giải cá nhân trong kỳ thi chọn học sinh giỏi: Đoạt giải nhất, nhì, ba\ntrong kỳ thi quốc gia hoặc giải nhất cấp tỉnh được cộng 2,0 điểm; giải khuyến\nkhích trong kỳ thi quốc gia hoặc giải nhì cấp tỉnh được cộng 1,5 điểm; giải ba cấp\ntỉnh được cộng 1,0 điểm;",
+        "tượng ưu tiên được quy định tại Quy chế này.\n20. Điểm cộng do cơ sở đào tạo xây dựng và công bố theo các tiêu chí\nthành tích phù hợp với đầu vào chương trình đào tạo bao gồm:\na) Điểm thưởng dành cho các đối tượng thí sinh được xét tuyển thẳng\nnhưng không sử dụng quyền xét tuyển thẳng theo quy định tại khoản 2, Điều 8\ncủa Quy chế này; mức điểm thưởng từ 0 - 3,00 điểm theo thang điểm 30;\nb) Điểm xét thưởng dành cho các đối tượng thí sinh có thành tích hoặc có"
+      ],
+      "ids": [
+        "news/news_02.md::chunk-3",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-289",
+        "news/news_02.md::chunk-4",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-287",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-19"
+      ],
+      "sources": [
+        "news_02.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "news_02.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.6601836085319519,
+        0.6283647418022156,
+        0.6179237961769104,
+        0.6107851266860962,
+        0.607928454875946
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G05",
+      "question": "Điểm xét tuyển tối đa của tổ hợp 3 môn là bao nhiêu, đã gồm điểm cộng và điểm ưu tiên chưa?",
+      "expected_context": "Mỗi thí sinh đều có cơ hội đạt mức điểm tối đa theo thang điểm xét 30 điểm đối với tổ hợp xét tuyển theo 03 môn và bảo đảm không có thí sinh có điểm xét vượt quá mức điểm 30 điểm (bao gồm cả điểm cộng và điểm ưu tiên",
+      "expected_answer": "Thang điểm xét là 30 điểm đối với tổ hợp xét tuyển theo 03 môn, và không thí sinh nào được có điểm xét vượt quá 30 điểm, đã bao gồm cả điểm cộng và điểm ưu tiên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "Tổng điểm cộng tối đa với một thí sinh năm nay là 3/30. Vì vậy, dù cả nước chỉ có [5 thủ khoa](https://vnexpress.net/5-thu-khoa-dat-diem-tuyet-doi-30-30-5091518.html) đạt 30/30 điểm tổ hợp ba môn thi tốt nghiệp THPT, các trường vẫn ghi nhận hàng trăm thí sinh có điểm xét tuyển tuyệt đối, thậm chí cao hơn nhờ các loại điểm cộng nói trên.",
+        "khích không vượt quá 10% điểm tối đa của thang điểm xét tuyển;\nd) Mỗi thí sinh đều có cơ hội đạt mức điểm tối đa theo thang điểm xét 30\nđiểm đối với tổ hợp xét tuyển theo 03 môn và bảo đảm không có thí sinh có\nđiểm xét vượt quá mức điểm 30 điểm (bao gồm cả điểm cộng và điểm ưu tiên\nquy định tại Điều 7 của Quy chế này).\n3. Nguồn xét tuyển vào chương trình đào tạo trình độ đại học là thí sinh\ncó tổng điểm 03 môn thi kỳ thi tốt nghiệp THPT (kỳ thi trung học nghề đối với",
+        "10\nb) Mức điểm ưu tiên cho những đối tượng chính sách khác được quy định\ntrong các văn bản pháp luật hiện hành do Bộ trưởng Bộ GDĐT quyết định;\nc) Thí sinh thuộc nhiều diện đối tượng chính sách quy định tại điểm a và\nđiểm b khoản này chỉ được hưởng một mức điểm ưu tiên cao nhất.\n3. Các mức điểm ưu tiên được quy định trong Điều này tương ứng với\ntổng điểm 03 môn (trong tổ hợp xét tuyển) theo thang điểm 30 đối với từng môn\n(không nhân hệ số); trường hợp phương thức tuyển sinh sử dụng thang điểm",
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "tập và kết quả thi và các tiêu chí đánh giá khác; được quy thành điểm số để xét\ntuyển (điểm xét tuyển) trong đó đã bao gồm điểm ưu tiên, điểm cộng (nếu có).\n16. Trọng số tính điểm xét của 01 môn trong 01 tổ hợp xét tuyển là phần\nđóng góp của môn đó trong tổ hợp xét tuyển. Tổ hợp có 03 môn (không nhân hệ\nsố) thì trọng số tính điểm xét của 01 môn bất kỳ trong tổ hợp xét tuyển là 1/3.\n17. Dự tuyển là việc một thí sinh tham dự quy trình tuyển sinh vào"
+      ],
+      "ids": [
+        "news/news_02.md::chunk-4",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-35",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-48",
+        "news/news_02.md::chunk-3",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-17"
+      ],
+      "sources": [
+        "news_02.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_02.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.6922906041145325,
+        0.6687530875205994,
+        0.6586595177650452,
+        0.6468163728713989,
+        0.6347276568412781
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G06",
+      "question": "Ai quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên?",
+      "expected_context": "Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên",
+      "expected_answer": "Bộ trưởng Bộ Giáo dục và Đào tạo quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "tuyển sinh, chương trình đào tạo để xét tuyển thẳng, ưu tiên xét tuyển.\nĐiều 9. Ngưỡng đầu vào các chương trình đào tạo chính quy và\nthường xuyên\n1. Ngưỡng đầu vào đối với chương trình đào tạo giáo viên, chương trình\nđào tạo thuộc lĩnh vực sức khỏe, chương trình đào tạo thuộc lĩnh vực pháp luật\nsử dụng phương thức tuyển sinh theo kết quả thi tốt nghiệp THPT, trung học\nnghề được quy định hằng năm như sau:\na) Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình\nđào tạo giáo viên;",
+        "15\n8. Căn cứ yêu cầu bảo đảm chất lượng, cơ sở đào tạo xác định và công bố\nngưỡng đầu vào cho các chương trình đào tạo và phương thức tuyển sinh trước\nthời gian kết thúc đăng ký dự tuyển theo kế hoạch tuyển sinh hằng năm và yêu\ncầu của chuẩn chương trình đào tạo. Đối với ngưỡng đầu vào chương trình đào\ntạo giáo viên, chương trình đào tạo thuộc lĩnh vực sức khỏe có cấp giấy phép\nhành nghề, chương trình đào tạo thuộc lĩnh vực pháp luật ngưỡng đầu vào do cơ",
+        "đào tạo giáo viên;\nb) Bộ trưởng Bộ GDĐT, chủ trì, phối hợp với Bộ trưởng Bộ Y tế quy định\nngưỡng đầu vào đối với chương trình đào tạo thuộc lĩnh vực sức khỏe có cấp\ngiấy phép hành nghề; chủ trì, phối hợp với Bộ trưởng Bộ Tư pháp quy định\nngưỡng đầu vào đối với chương trình đào tạo thuộc lĩnh vực pháp luật.\n2. Đối với phương thức tuyển sinh không sử dụng kết quả thi tốt nghiệp\nTHPT hoặc phương thức tuyển sinh kết hợp, thí sinh phải đạt ngưỡng đầu vào",
+        "a) Đối với thí sinh dự tuyển vào chương trình đào tạo giáo viên, chương\ntrình thuộc lĩnh vực sức khỏe có cấp giấy phép hành nghề, chương trình thuộc\nlĩnh vực pháp luật trừ các trường hợp quy định tại điểm b khoản này, ngưỡng\nđầu vào được áp dụng một trong các tiêu chí sau:\n- Kết quả trung bình chung học tập đánh giá mức tốt (học lực xếp loại từ\ngiỏi trở lên) hoặc điểm trung bình chung các môn văn hóa cấp THPT đạt từ 8,00\ntrở lên theo thang điểm 10;",
+        "năm lớp 12 được đánh giá mức đạt (học lực xếp loại trung bình) và có 05 năm\nkinh nghiệm công tác đúng với chuyên môn đào tạo;\n- Tốt nghiệp trình độ trung cấp, trình độ cao đẳng, trình độ đại học đạt loại\nkhá trở lên.\n7. Đối với người đã trúng tuyển hoặc đã tốt nghiệp các ngành đào tạo giáo\nviên trước ngày 07 tháng 5 năm 2020 nếu dự tuyển vào học đại học để đạt trình\nđộ chuẩn, ngưỡng đầu vào do cơ sở đào tạo quy định."
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-61",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-75",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-62",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-71",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-74"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.7155416011810303,
+        0.6944465637207031,
+        0.6926233768463135,
+        0.6560714840888977,
+        0.6142188906669617
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G07",
+      "question": "Những đối tượng nào được xét tuyển thẳng theo quy chế tuyển sinh?",
+      "expected_context": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+      "expected_answer": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân và Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "khác thì mức điểm ưu tiên được quy đổi tương đương.\n4. Điểm ưu tiên đối với thí sinh đạt tổng điểm từ 22,50 trở lên (khi quy\nđổi về điểm theo thang 10 và theo thang tổng điểm 03 môn tối đa là 30) được\nlàm tròn đến hàng phần trăm và xác định theo công thức sau:\nĐiểm ưu tiên = [(30 - Tổng điểm đạt được)/7,50] x Mức điểm ưu tiên quy\nđịnh tại khoản 1, 2 Điều này\nĐiều 8. Đối tượng xét tuyển thẳng và ưu tiên xét tuyển\n1. Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ",
+        "năng khiếu đặc biệt; mức điểm xét thưởng từ 0 - 1,50 điểm theo thang điểm 30;\nc) Điểm khuyến khích dành cho các đối tượng thí sinh có chứng chỉ ngoại\nngữ hoặc có chứng chỉ quốc tế; mức điểm khuyến khích từ 0 - 1,50 điểm theo thang\nđiểm 30.\n21. Xét tuyển thẳng là việc thực hiện quy trình xét tuyển hồ sơ thí sinh và\ncông nhận trúng tuyển đối với những đối tượng xét tuyển thẳng theo quy định\ncủa Quy chế này.\n22. Xét tuyển là quy trình xử lý riêng tại từng cơ sở đào tạo hoặc xử lý",
+        "trình xét tuyển tại cơ sở đào tạo);\nd) Xác nhận nhập học trên Hệ thống và nhập học tại cơ sở đào tạo.\n2. Căn cứ kế hoạch tuyển sinh chung, cơ sở đào tạo xây dựng kế hoạch\nxét tuyển thẳng, xét tuyển đợt 1 và kế hoạch xét tuyển các đợt bổ sung (nếu có).\nĐiều 13. Tổ chức đăng ký và xét tuyển thẳng\n1. Căn cứ thông tin tuyển sinh đã công bố, cơ sở đào tạo tổ chức cho thí\nsinh thuộc đối tượng được xét tuyển thẳng theo quy định tại Điều 8 của Quy chế\nnày đăng ký dự tuyển.",
+        "11\nđ) Thí sinh đạt giải nhất, nhì, ba trong các kỳ thi tay nghề khu vực\nASEAN và thi tay nghề quốc tế do Bộ GDĐT cử tham gia; thời gian đạt giải\nkhông quá 03 năm tính đến thời điểm xét tuyển thẳng;\ne) Việc xét tuyển thẳng hoặc không được xét tuyển thẳng các đối tượng\nquy định tại điểm b, c, d, đ của khoản này do cơ sở đào tạo quyết định.\n3. Thí sinh có bằng trung cấp ngành sư phạm loại giỏi trở lên hoặc có\nbằng trung cấp ngành sư phạm loại khá và có ít nhất 02 năm làm việc đúng",
+        "phù hợp với năng lực và sức khỏe của thí sinh.\nĐiều 6. Phương thức tuyển sinh và nguồn tuyển\n1. Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm\nxét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.\n2. Mỗi phương thức tuyển sinh phải quy định rõ các tiêu chí đánh giá, xét\ntuyển, cách thức tính điểm xét, điều kiện trúng tuyển trong đó:\na) Các tiêu chí dùng để đánh giá, xét tuyển phải dựa trên yêu cầu về kiến"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-49",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-20",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-86",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-53",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-33"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.6660177707672119,
+        0.6554383635520935,
+        0.6435145735740662,
+        0.6412156820297241,
+        0.6376234292984009
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G08",
+      "question": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong trường hợp nào?",
+      "expected_context": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trúng tuyển trong những trường hợp sau: a) Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong tập trung ngay trong năm trúng tuyển",
+      "expected_answer": "Được bảo lưu khi đi nghĩa vụ quân sự, công an nhân dân hoặc thanh niên xung phong tập trung ngay trong năm trúng tuyển theo quyết định của cơ quan có thẩm quyền; hoặc bị bệnh nặng, tai nạn nghiêm trọng không thể nhập học đúng hạn.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "sở đào tạo xác định không được thấp hơn quy định tại Điều này.\nĐiều 10. Bảo lưu kết quả trúng tuyển\n1. Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trúng tuyển\ntrong những trường hợp sau:\na) Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong\ntập trung ngay trong năm trúng tuyển theo quyết định hoặc lệnh của cơ quan có\nthẩm quyền;\nb) Bị bệnh nặng hoặc bị tai nạn nghiêm trọng không thể nhập học đúng\nhạn, có hồ sơ y tế và xác nhận của bệnh viện cấp cơ bản trở lên.",
+        "2. Thí sinh thuộc diện quy định tại khoản 1 gửi đơn xin bảo lưu kèm theo\ngiấy tờ minh chứng tới cơ sở đào tạo gọi nhập học. Thời gian tối đa được bảo\nlưu kết quả do cơ sở đào tạo quy định, nhưng không quá 36 tháng đối với người\nquy định tại khoản 1 Điều này.\n3. Ngay sau khi đủ điều kiện đi học trở lại, người được bảo lưu kết quả\ntrúng tuyển phải thực hiện thủ tục nhập học theo quy định của cơ sở đào tạo,\ntrong đó phải cung cấp minh chứng đã hoàn thành nhiệm vụ hoặc đã được điều",
+        "5,0 điểm trở lên.\n2. Thí sinh có điểm bảo lưu theo quy định tại khoản 1 của Điều này, để\nđược xét công nhận tốt nghiệp của kỳ thi năm liền kề tiếp theo phải đăng ký dự\nthi theo quy định tại điểm a khoản 2 Điều 20 của Quy chế này (trong đó phải có\nmôn thi được bảo lưu) và chỉ dự thi những môn thi mà không có điểm bảo lưu.\nTrong trường hợp thí sinh dự thi môn thi được bảo lưu thì phải sử dụng kết quả\nthi để xét công nhận tốt nghiệp.\nĐiều 42. Điểm ưu tiên",
+        "59\nb) Trong vòng 30 ngày kể từ khi kết thúc buổi thi cuối cùng của kỳ thi, Hội\nđồng xét công nhận tốt nghiệp THPT xem xét, quyết định đặc cách cho thí sinh\ncăn cứ hồ sơ và các quy định tại khoản 1, 2 Điều này.\nĐiều 41. Bảo lưu điểm thi\n1. Thí sinh đã dự thi đủ các môn thi quy định nhưng chưa tốt nghiệp THPT\nvà không bị kỷ luật hủy kết quả thi được bảo lưu điểm thi để xét công nhận tốt\nnghiệp THPT trong kỳ thi năm liền kề tiếp theo. Môn thi được bảo lưu phải đạt từ\n5,0 điểm trở lên.",
+        "65\n1. Bộ GDĐT lưu trữ vĩnh viễn danh sách thí sinh được công nhận tốt nghiệp\nTHPT của các sở GDĐT.\n2. Sở GDĐT:\na) Lưu trữ vĩnh viễn các tài liệu gồm: Bảng ghi điểm thi; bảng ghi thông tin\nxét công nhận tốt nghiệp THPT; danh sách thí sinh được công nhận tốt nghiệp\nTHPT; sổ cấp Bằng tốt nghiệp THPT;\nb) Lưu trữ tối thiểu 09 tháng: thiết bị lưu trữ dữ liệu (ổ cứng, thẻ nhớ) của\nhệ thống camera giám sát được sử dụng trong kỳ thi; ổ cứng của máy chủ sử dụng\nchấm thi trắc nghiệm;"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-76",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-77",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-277",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-276",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-304"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.8025091886520386,
+        0.7044259905815125,
+        0.6542812585830688,
+        0.6396893262863159,
+        0.6317850351333618
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G09",
+      "question": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng thì thí sinh phải đáp ứng điều kiện gì?",
+      "expected_context": "người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm ngoại ngữ",
+      "expected_answer": "Thí sinh phải có kết quả học tập tối thiểu 02 học kỳ lớp 12, hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo, trừ trường hợp xét tuyển vào ngành ngôn ngữ hoặc sư phạm ngoại ngữ.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "thức nền tảng và năng lực cốt lõi mà thí sinh cần có để theo học chương trình\nđào tạo;\nb) Phương thức xét tuyển không thể hiện được yêu cầu ở điểm a khoản\nnày thì người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc\ncó điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương\ntrình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm\nngoại ngữ;\nc) Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến",
+        "không đủ điều kiện;\nb) Cung cấp đầy đủ, tự chịu trách nhiệm về tính chính xác của tất cả thông\ntin đăng ký dự tuyển, bao gồm cả thông tin cá nhân, thông tin khu vực và đối\ntượng ưu tiên (nếu có), nguyện vọng đăng ký, chứng chỉ ngoại ngữ (nếu có);\ntính xác thực của các giấy tờ minh chứng;\nc) Đồng ý để cơ sở đào tạo mà mình dự tuyển được quyền sử dụng thông\ntin, dữ liệu cần thiết phục vụ cho công tác xét tuyển;\nd) Tự chịu trách nhiệm về rủi ro phát sinh khi sử dụng kết quả các kỳ thi",
+        "**[11 phương thức xét tuyển theo dự thảo của Bộ](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397-p2.html \"11 phương thức xét tuyển theo dự thảo của Bộ\")**\n\nNgoài điều chỉnh trên, Bộ còn dự kiến không sử dụng điểm cộng ngoài điểm ưu tiên khu vực, đối tượng; xác định rõ nguồn tuyển và ngưỡng đầu vào, yêu cầu chuẩn hóa độ lệch giữa các tổ hợp, không yêu cầu thí sinh nộp lại giấy tờ, chứng chỉ có trên hệ thống...",
+        "Mỗi phương thức phải đảm bảo cơ hội cho tất cả thí sinh tham gia xét tuyển, quy định rõ các tiêu chí đánh giá, xét tuyển, cách thức tính điểm xét, bảo đảm chỉ có duy nhất một thang điểm.\n\nVí dụ, trường đại học A khi tuyển sinh ngành Công nghệ thông tin chỉ được dùng một phương thức là xét điểm thi tốt nghiệp THPT, hoặc điểm thi đánh giá năng lực, hoặc học bạ, thay vì được dùng đồng thời như hiện nay.",
+        "kiện sau:\na) Đạt ngưỡng đầu vào theo quy định tại Điều 9 Quy chế này đối với\nchương trình đào tạo đăng ký dự tuyển, trừ các đối tượng tại khoản 1, khoản 2\n(điểm a, c, d, đ), khoản 3, khoản 4 Điều 8 của Quy chế này;\nb) Có đủ sức khoẻ để học tập theo quy định hiện hành;\nc) Có đủ thông tin cá nhân, hồ sơ dự tuyển theo quy định của cơ sở đào tạo."
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-34",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-109",
+        "news/news_03.md::chunk-9",
+        "news/news_01.md::chunk-3",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-31"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_03.md",
+        "news_01.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.6658393144607544,
+        0.6470635533332825,
+        0.6215637922286987,
+        0.6214275360107422,
+        0.6212252378463745
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G10",
+      "question": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn bao lâu kể từ ngày công bố điểm thi?",
+      "expected_context": "Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05 ngày kể từ ngày công bố điểm thi",
+      "expected_answer": "Nơi thí sinh đăng ký dự thi nhận đơn phúc khảo trong thời hạn 05 ngày kể từ ngày công bố điểm thi.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "52\n2.14 Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05\nngày kể từ ngày công bố điểm thi và chuyển dữ liệu thí sinh có đơn phúc khảo bài\nthi đến Hội đồng thi. Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc\nkhảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh.\n3. Địa điểm tổ chức phúc khảo được bố trí tại khu vực bảo đảm các điều\nkiện theo quy định tại Điều 31 Quy chế này.",
+        "THPT do phúc khảo hoặc giải quyết khiếu nại về hồ sơ thi;\nd) Đĩa CD chứa dữ liệu thi;\nđ) Những biên bản liên quan;\ne) Các loại hồ sơ khác theo hướng dẫn hằng năm của Bộ GDĐT.\n2.22 Trình tự duyệt công nhận tốt nghiệp THPT:\na) Trong vòng 05 ngày kể từ ngày công bố kết quả thi, Giám đốc sở GDĐT\nduyệt công nhận tốt nghiệp THPT đối với các thí sinh đủ điều kiện và chịu trách\nnhiệm trước Bộ GDĐT về kết quả công nhận tốt nghiệp THPT của tỉnh mình;",
+        "hoặc địa điểm chấm thi, phúc khảo.\n4.30 Tiếp nhận đơn, lập danh sách thí sinh có đơn phúc khảo bài thi và\nchuyển đến sở GDĐT.\n5.31 Cấp Giấy chứng nhận kết quả thi và Giấy chứng nhận hoàn thành\nchương trình giáo dục phổ thông.\n30 Khoản này được sửa đổi theo quy định tại Điều 20 của Thông tư số 13/2026/TT-BGDĐT sửa đổi, bổ\nsung một số điều của Quy chế thi tốt nghiệp trung học phổ thông ban hành kèm theo Thông tư số 24/2024/TT-",
+        "59\nb) Trong vòng 30 ngày kể từ khi kết thúc buổi thi cuối cùng của kỳ thi, Hội\nđồng xét công nhận tốt nghiệp THPT xem xét, quyết định đặc cách cho thí sinh\ncăn cứ hồ sơ và các quy định tại khoản 1, 2 Điều này.\nĐiều 41. Bảo lưu điểm thi\n1. Thí sinh đã dự thi đủ các môn thi quy định nhưng chưa tốt nghiệp THPT\nvà không bị kỷ luật hủy kết quả thi được bảo lưu điểm thi để xét công nhận tốt\nnghiệp THPT trong kỳ thi năm liền kề tiếp theo. Môn thi được bảo lưu phải đạt từ\n5,0 điểm trở lên.",
+        "khảo trình Chủ tịch Hội đồng thi quyết định. Chủ tịch Hội đồng thi cập nhật điểm\ncủa thí sinh sau phúc khảo vào hệ thống Quản lý thi theo quy định của Bộ GDĐT;\ngửi dữ liệu về Bộ GDĐT qua hệ thống Quản lý thi.\n8. Hội đồng thi in Giấy chứng nhận kết quả thi sau phúc khảo trả cho thí\nsinh có bài thi được điều chỉnh điểm; đồng thời, thu hồi và hủy Giấy chứng nhận\nkết quả thi trước phúc khảo.\nĐiều 38. Chấm thẩm định"
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-240",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-296",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-356",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-276",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-252"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.7578480839729309,
+        0.6889592409133911,
+        0.6871707439422607,
+        0.6602157354354858,
+        0.6572697758674622
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G11",
+      "question": "Sau khi hết hạn nhận đơn phúc khảo, hội đồng thi phải hoàn thành việc chấm phúc khảo trong bao lâu?",
+      "expected_context": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo",
+      "expected_answer": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "52\n2.14 Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05\nngày kể từ ngày công bố điểm thi và chuyển dữ liệu thí sinh có đơn phúc khảo bài\nthi đến Hội đồng thi. Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc\nkhảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh.\n3. Địa điểm tổ chức phúc khảo được bố trí tại khu vực bảo đảm các điều\nkiện theo quy định tại Điều 31 Quy chế này.",
+        "giao cho Chủ tịch Hội đồng thi để cập nhật kết quả vào cơ sở dữ liệu của hệ thống\nQuản lý thi và lưu trữ;\nc) Kết thúc việc chấm phúc khảo, Tổ phúc khảo bài thi trắc nghiệm lập biên\nbản tổng hợp, có chữ ký của lãnh đạo Ban Phúc khảo và tất cả các thành viên, Tổ\nGiám sát;\nd) Tổ Giám sát phải thực hiện nhiệm vụ giám sát trực tiếp, thường xuyên,\nliên tục tất cả các khâu trong quá trình phúc khảo bài thi trắc nghiệm.\n7.17 Điểm các bài thi được điều chỉnh sau phúc khảo do Trưởng ban Phúc",
+        "chấm phúc khảo theo quy định tại Điều 33 Quy chế này và phải được chấm bằng\nmực có màu khác với màu mực được dùng chấm trước đó trên bài làm của thí\nsinh. Trong khi tiến hành các công việc liên quan đến phúc khảo, phải có ít nhất\ntừ hai thành viên của Ban Phúc khảo trở lên. Kết quả chấm phúc khảo bài thi tự\nluận do Ban Thư ký xử lý như sau:\n14 Khoản này được sửa đổi theo quy định tại khoản 1 Điều 10 của Thông tư số 13/2026/TT-BGDĐT",
+        "khảo trình Chủ tịch Hội đồng thi quyết định. Chủ tịch Hội đồng thi cập nhật điểm\ncủa thí sinh sau phúc khảo vào hệ thống Quản lý thi theo quy định của Bộ GDĐT;\ngửi dữ liệu về Bộ GDĐT qua hệ thống Quản lý thi.\n8. Hội đồng thi in Giấy chứng nhận kết quả thi sau phúc khảo trả cho thí\nsinh có bài thi được điều chỉnh điểm; đồng thời, thu hồi và hủy Giấy chứng nhận\nkết quả thi trước phúc khảo.\nĐiều 38. Chấm thẩm định",
+        "hoặc địa điểm chấm thi, phúc khảo.\n4.30 Tiếp nhận đơn, lập danh sách thí sinh có đơn phúc khảo bài thi và\nchuyển đến sở GDĐT.\n5.31 Cấp Giấy chứng nhận kết quả thi và Giấy chứng nhận hoàn thành\nchương trình giáo dục phổ thông.\n30 Khoản này được sửa đổi theo quy định tại Điều 20 của Thông tư số 13/2026/TT-BGDĐT sửa đổi, bổ\nsung một số điều của Quy chế thi tốt nghiệp trung học phổ thông ban hành kèm theo Thông tư số 24/2024/TT-"
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-240",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-251",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-243",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-252",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-356"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.7415362596511841,
+        0.6514715552330017,
+        0.6506367921829224,
+        0.6493176817893982,
+        0.6461989283561707
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G12",
+      "question": "Thí sinh đoạt giải ba cấp tỉnh được cộng bao nhiêu điểm khuyến khích khi xét công nhận tốt nghiệp THPT?",
+      "expected_context": "giải ba cấp tỉnh được cộng 1,0 điểm",
+      "expected_answer": "Được cộng 1,0 điểm khuyến khích.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "61\nĐiều 43. Điểm khuyến khích\nNgười học tham gia các cuộc thi và các hoạt động dưới đây trong thời gian\nhọc ở cấp THPT được cộng điểm khuyến khích để xét công nhận tốt nghiệp\nTHPT:\n1. Đoạt giải cá nhân trong kỳ thi chọn học sinh giỏi: Đoạt giải nhất, nhì, ba\ntrong kỳ thi quốc gia hoặc giải nhất cấp tỉnh được cộng 2,0 điểm; giải khuyến\nkhích trong kỳ thi quốc gia hoặc giải nhì cấp tỉnh được cộng 1,5 điểm; giải ba cấp\ntỉnh được cộng 1,0 điểm;",
+        "ngành Giáo dục tổ chức hoặc phối hợp với các ngành chuyên môn từ cấp tỉnh trở lên tổ chức ở cấp THPT:\n- Giải nhất, nhì, ba quốc gia hoặc giải nhất cấp tỉnh hoặc Huy chương Vàng: 2,0 điểm.\n- Giải khuyến khích quốc gia hoặc giải tư cuộc thi khoa học kỹ thuật cấp quốc gia hoặc giải nhì\ncấp tỉnh hoặc Huy chương Bạc: 1,5 điểm.\n- Giải ba cấp tỉnh hoặc Huy chương Đồng: 1,0 điểm.\n* Giải đồng đội chỉ tính cho giải quốc gia, mức điểm cộng thêm giống như giải cá nhân.",
+        "tỉnh được cộng 1,0 điểm;\n2. Đoạt giải cá nhân và đồng đội trong các kỳ thi thí nghiệm thực hành môn\nVật lý, Hóa học, Sinh học; thi văn nghệ; thể dục thể thao; hội thao giáo dục quốc\nphòng; cuộc thi khoa học kỹ thuật; viết thư quốc tế do ngành Giáo dục phối hợp\nvới các ngành chuyên môn từ cấp tỉnh trở lên tổ chức.\na) Đối với giải cá nhân: Đoạt giải nhất, nhì, ba quốc gia hoặc giải nhất cấp\ntỉnh hoặc Huy chương Vàng được cộng 2,0 điểm; giải khuyến khích quốc gia hoặc",
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "Điều 42. Điểm ưu tiên\n1. Xét công nhận tốt nghiệp THPT tính theo 3 diện gồm Diện 1, Diện 2,\nDiện 3; trong đó, thí sinh Diện 1 là những thí sinh bình thường không được cộng\nđiểm ưu tiên; thí sinh Diện 2 và Diện 3 được cộng điểm ưu tiên.\n2. Diện 2: Cộng 0,25 điểm đối với thí sinh thuộc một trong những đối tượng\nsau:\na) Thương binh, bệnh binh, người hưởng chính sách như thương binh bị\nsuy giảm khả năng lao động dưới 81 % (đối với GDTX);"
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-287",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-436",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-288",
+        "news/news_02.md::chunk-3",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-278"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "news_02.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.719929039478302,
+        0.6767177581787109,
+        0.6750844120979309,
+        0.6502391695976257,
+        0.630861759185791
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G13",
+      "question": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành đào tạo được dùng mấy phương thức tuyển sinh?",
+      "expected_context": "Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+      "expected_answer": "Theo dự thảo, các trường được dùng tối đa 5 phương thức nhưng mỗi ngành hoặc chương trình đào tạo chỉ được dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+      "expected_source": "news_01.md",
+      "contexts": [
+        "Cụ thể, Bộ vẫn [giới hạn](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397.html) phương thức xét tuyển đại học nhưng theo lộ trình. Năm 2027, các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Mỗi ngành, chương trình đào tạo sẽ được áp dụng ba phương thức, thay vì một như dự thảo ban đầu.",
+        "Bộ dự kiến các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Tuy nhiên, mỗi ngành, chương trình chỉ được áp dụng ba phương thức, giảm hai so với năm nay. Từ năm 2028, con số này giảm xuống chỉ còn một phương thức với một ngành, chương trình.",
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "Nhưng Bộ Giáo dục và Đào tạo [dự kiến sửa quy chế tuyển sinh](https://vnexpress.net/bo-giao-duc-va-dao-tao-doi-y-lui-lich-siet-phuong-thuc-tuyen-sinh-dai-hoc-5121531.html). Cụ thể, năm 2027, các trường có tối đa ba phương thức tuyển sinh cho một ngành, giảm hai so với năm nay. Và từ năm 2028 - thời điểm con chị Hà thi tốt nghiệp, một ngành chỉ được xét bằng một cách.",
+        "Từ năm 2028, Bộ dự kiến các trường chỉ được dùng một phương thức tuyển sinh với một ngành, chương trình. Ví dụ, trường đại học A tuyển sinh ngành Công nghệ thông tin vào năm 2028 chỉ được dùng một phương thức là xét điểm thi tốt nghiệp THPT, hoặc điểm thi đánh giá năng lực, hoặc học bạ, thay vì được dùng đồng thời cả ba hoặc nhiều hơn như hiện nay."
+      ],
+      "ids": [
+        "news/news_04.md::chunk-2",
+        "news/news_03.md::chunk-2",
+        "news/news_01.md::chunk-2",
+        "news/news_05.md::chunk-3",
+        "news/news_04.md::chunk-3"
+      ],
+      "sources": [
+        "news_04.md",
+        "news_03.md",
+        "news_01.md",
+        "news_05.md",
+        "news_04.md"
+      ],
+      "titles": [
+        "Đổi lộ trình siết phương thức tuyển sinh đại học 2027",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Phụ huynh, thí sinh 'chới với' vì dự kiến siết phương thức tuyển sinh đại học",
+        "Đổi lộ trình siết phương thức tuyển sinh đại học 2027"
+      ],
+      "scores": [
+        0.7619110345840454,
+        0.7456751465797424,
+        0.7284654974937439,
+        0.7107130885124207,
+        0.702252984046936
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G14",
+      "question": "Dự kiến từ năm 2027, thí sinh còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi không?",
+      "expected_context": "Thí sinh không còn được cộng tối đa 3 điểm với chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học từ năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.",
+      "expected_answer": "Không. Theo dự kiến của Bộ Giáo dục và Đào tạo, từ năm 2027 thí sinh không còn được cộng tối đa 3 điểm cho chứng chỉ IELTS hay giải học sinh giỏi; chỉ còn điểm ưu tiên theo khu vực và đối tượng chính sách.",
+      "expected_source": "news_02.md",
+      "contexts": [
+        "Thí sinh không còn được cộng tối đa 3 điểm với chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học từ năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.\n\nNội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định tuyển sinh và đào tạo đại học, do Bộ công bố chiều 17/9.",
+        "\"Vì không có điểm ưu tiên, em thi chứng chỉ ngoại ngữ để cạnh tranh\", Minh nói.\n\nTuy nhiên, Bộ Giáo dục và Đào tạo dự kiến từ năm 2027 sẽ chỉ còn điểm ưu tiên khu vực và đối tượng, các trường không được tự đặt ra điểm cộng cho thành tích, chứng chỉ. Hiện điểm cộng với chứng chỉ như IELTS tối đa là 1,5/30.\n\n\"Nếu vậy, chứng chỉ mà em cố giành được có nguy cơ vô ích khi xét tuyển\", Minh lo lắng.",
+        "Các trường chỉ được dùng một phương thức tuyển sinh ở một ngành, là thay đổi lớn nhất trong xét tuyển đại học năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.\n\n**[Dự kiến bỏ điểm cộng IELTS và chứng chỉ quốc tế](https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html)**",
+        "# Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học\n\n**Source:** https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html\n\n**Crawled:** 2026-09-20T17:41:43.459371\n\n---\n\nDự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học\n======================================================================",
+        "Cụ thể, Bộ dự kiến từ năm 2027 sẽ chỉ còn điểm ưu tiên theo khu vực, đối tượng chính sách. Các trường không được sử dụng điểm cộng do mình tự quy định cho thành tích, chứng chỉ hoặc tiêu chí bổ sung.\n\nĐây là điểm mới nổi bật, bên cạnh việc [siết phương thức xét tuyển](https://vnexpress.net/bo-giao-duc-va-dao-tao-neu-ly-do-siet-phuong-thuc-tuyen-sinh-dai-hoc-2027-5121541.html) theo mỗi ngành."
+      ],
+      "ids": [
+        "news/news_02.md::chunk-1",
+        "news/news_06.md::chunk-2",
+        "news/news_01.md::chunk-1",
+        "news/news_02.md::chunk-0",
+        "news/news_02.md::chunk-2"
+      ],
+      "sources": [
+        "news_02.md",
+        "news_06.md",
+        "news_01.md",
+        "news_02.md",
+        "news_02.md"
+      ],
+      "titles": [
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "Nhiều học sinh lo mất lợi thế nếu bỏ cộng điểm IELTS",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học"
+      ],
+      "scores": [
+        0.784040093421936,
+        0.7390856146812439,
+        0.7028400897979736,
+        0.6661604642868042,
+        0.6612024903297424
+      ],
+      "method": "dense"
+    },
+    {
+      "id": "G15",
+      "question": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ yêu cầu bao nhiêu phần trăm số trường đang đào tạo ngành đó phải đề xuất?",
+      "expected_context": "Để đổi tên hay bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+      "expected_answer": "Cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+      "expected_source": "news_07.md",
+      "contexts": [
+        "Việc đổi tên ngành sẽ dựa trên căn cứ khoa học, thực tiễn, nhu cầu nhân lực hoặc các bảng phân loại thông dụng trên thế giới. Để đổi tên hay bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.\n\nTheo một số chuyên gia, việc sắp xếp lại danh mục ngành là hợp lý, tránh tình trạng mã ngành quá \"vụn\" như hiện nay. Các trường cần lưu ý thí sinh việc này để tránh hiểu nhầm một ngành đào tạo nào đó bị bỏ nhưng thực ra chỉ đổi tên hay mã ngành.",
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "Một số ngành được đổi tên như Kỹ thuật dệt đổi thành Kỹ thuật dệt, may; Bảo tồn thiên nhiên, môi trường và phát triển bền vững thành Bảo tồn thiên nhiên và đa dạng sinh học.\n\nBộ cho biết việc xây dựng danh mục mới nhằm chuẩn hóa hệ thống phân loại và phát triển các ngành; phục vụ tuyển sinh, đào tạo, kiểm định chất lượng, cấp và quản lý văn bằng...\n\n**[Danh mục ngành mới và các ngành được sắp xếp lại](https://attachment.vnecdn.net/2026/09/17/74-bgddt-signed-pdf.pdf)**",
+        "Thông tư về danh mục ngành đào tạo của giáo dục đại học do Bộ Giáo dục và Đào tạo ban hành có hiệu lực từ 12/10 có nhiều điểm mới so với hiện tại.\n\nBộ vẫn chia 24 lĩnh vực đào tạo, từ khoa học giáo dục và đào tạo giáo viên, nghệ thuật, nhân văn, kinh doanh và quản lý, đến máy tính và công nghệ thông tin, kỹ thuật, sức khỏe, an ninh và quốc phòng, nhưng thêm nhiều ngành mới, đổi tên, và sắp xếp lại.",
+        "Nhưng Bộ Giáo dục và Đào tạo [dự kiến sửa quy chế tuyển sinh](https://vnexpress.net/bo-giao-duc-va-dao-tao-doi-y-lui-lich-siet-phuong-thuc-tuyen-sinh-dai-hoc-5121531.html). Cụ thể, năm 2027, các trường có tối đa ba phương thức tuyển sinh cho một ngành, giảm hai so với năm nay. Và từ năm 2028 - thời điểm con chị Hà thi tốt nghiệp, một ngành chỉ được xét bằng một cách."
+      ],
+      "ids": [
+        "news/news_07.md::chunk-5",
+        "news/news_01.md::chunk-2",
+        "news/news_07.md::chunk-4",
+        "news/news_07.md::chunk-1",
+        "news/news_05.md::chunk-3"
+      ],
+      "sources": [
+        "news_07.md",
+        "news_01.md",
+        "news_07.md",
+        "news_07.md",
+        "news_05.md"
+      ],
+      "titles": [
+        "Sắp xếp, đổi tên hàng loạt ngành ở đại học",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Sắp xếp, đổi tên hàng loạt ngành ở đại học",
+        "Sắp xếp, đổi tên hàng loạt ngành ở đại học",
+        "Phụ huynh, thí sinh 'chới với' vì dự kiến siết phương thức tuyển sinh đại học"
+      ],
+      "scores": [
+        0.7532980442047119,
+        0.622957170009613,
+        0.6225242018699646,
+        0.6210246682167053,
+        0.6162693500518799
+      ],
+      "method": "dense"
+    }
+  ],
+  "B": [
+    {
+      "id": "G01",
+      "question": "Một cơ sở đào tạo được sử dụng tối đa bao nhiêu phương thức tuyển sinh?",
+      "expected_context": "Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm xét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.",
+      "expected_answer": "Tối đa 05 phương thức tuyển sinh, không tính xét tuyển thẳng, xét tuyển đối tượng cử tuyển và xét tuyển đối tượng dự bị đại học.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "phù hợp với năng lực và sức khỏe của thí sinh.\nĐiều 6. Phương thức tuyển sinh và nguồn tuyển\n1. Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm\nxét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.\n2. Mỗi phương thức tuyển sinh phải quy định rõ các tiêu chí đánh giá, xét\ntuyển, cách thức tính điểm xét, điều kiện trúng tuyển trong đó:\na) Các tiêu chí dùng để đánh giá, xét tuyển phải dựa trên yêu cầu về kiến",
+        "Bộ dự kiến các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Tuy nhiên, mỗi ngành, chương trình chỉ được áp dụng ba phương thức, giảm hai so với năm nay. Từ năm 2028, con số này giảm xuống chỉ còn một phương thức với một ngành, chương trình.",
+        "Cụ thể, Bộ vẫn [giới hạn](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397.html) phương thức xét tuyển đại học nhưng theo lộ trình. Năm 2027, các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Mỗi ngành, chương trình đào tạo sẽ được áp dụng ba phương thức, thay vì một như dự thảo ban đầu.",
+        "- Phương thức 2...\n- Phương thức 3...\n| 2.     |     |     |     |     |       |     |     |     |     |\n| ------ | --- | --- | --- | --- | ----- | --- | --- | --- | --- |\n| 3.     |     |     |     |     |       |     |     |     |     |\n| …      |     |     |     |     |       |     |     |     |     |\n|        |     |     |     |     |       |     |     |     |     |\n5. Các thông tin cần thiết khác để thí sinh dự tuyển vào cơ sở đào tạo\na. Các điều kiện phụ sử dụng trong xét tuyển"
+      ],
+      "ids": [
+        "news/news_01.md::chunk-2",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-33",
+        "news/news_03.md::chunk-2",
+        "news/news_04.md::chunk-2",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-141"
+      ],
+      "sources": [
+        "news_01.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_03.md",
+        "news_04.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "Đổi lộ trình siết phương thức tuyển sinh đại học 2027",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03200204813108039,
+        0.03200204813108039,
+        0.03125,
+        0.015384615384615385
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G02",
+      "question": "Mức điểm ưu tiên khu vực đối với KV1, KV2-NT, KV2 và KV3 là bao nhiêu?",
+      "expected_context": "Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực 2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên",
+      "expected_answer": "Khu vực 1 (KV1) được 0,75 điểm; khu vực 2 nông thôn (KV2-NT) được 0,50 điểm; khu vực 2 (KV2) được 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "quyền quy định tại Phụ lục I của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực\n2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3\n(KV3) không được tính điểm ưu tiên;\nb) Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm\ntrường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung\ncấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương",
+        "nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng;\nc) Thí sinh được hưởng chính sách ưu tiên khu vực theo quy định trong\nnăm tốt nghiệp THPT (hoặc trung cấp, trung học nghề) và một năm kế tiếp.\n2. Ưu tiên theo đối tượng chính sách quy định tại Phụ lục II của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho nhóm đối tượng UT1 (gồm các đối\ntượng 01 đến 03) là 2,00 điểm và cho nhóm đối tượng UT2 (gồm các đối tượng\n04 đến 06) là 1,00 điểm;",
+        "26\nPHỤ LỤC I\nKHU VỰC ƯU TIÊN\n(Kèm theo Quy chế tuyển sinh các ngành đào tạo trình độ đại học\nvà ngành Giáo dục Mầm non trình độ cao đẳng)\nKhu vực Mô tả khu vực và điều kiện\nCác xã vùng đồng bào dân tộc thiểu số và miền núi, xã khu vực I, II,\nKhu vực 1 III; các xã có thôn vùng đồng bào dân tộc thiểu số và miền núi, thôn\n(KV1) đặc biệt khó khăn; các xã/phường hải đảo/đặc khu; các xã/phường\nbiên giới đất liền.\nKhu vực 2 nông\nCác địa phương không thuộc KV1, KV2, KV3.\nthôn (KV2-NT)",
+        "thôn (KV2-NT)\nKhu vực 2 Các phường thuộc tỉnh; các xã của thành phố trực thuộc Trung ương\n(KV2) (trừ các xã thuộc KV1).\nKhu vực 3\nCác phường của thành phố trực thuộc Trung ương.\n(KV3)",
+        "khác thì mức điểm ưu tiên được quy đổi tương đương.\n4. Điểm ưu tiên đối với thí sinh đạt tổng điểm từ 22,50 trở lên (khi quy\nđổi về điểm theo thang 10 và theo thang tổng điểm 03 môn tối đa là 30) được\nlàm tròn đến hàng phần trăm và xác định theo công thức sau:\nĐiểm ưu tiên = [(30 - Tổng điểm đạt được)/7,50] x Mức điểm ưu tiên quy\nđịnh tại khoản 1, 2 Điều này\nĐiều 8. Đối tượng xét tuyển thẳng và ưu tiên xét tuyển\n1. Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-46",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-47",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-129",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-130",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-49"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.031754032258064516,
+        0.031746031746031744,
+        0.03128054740957967,
+        0.030090497737556562
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G03",
+      "question": "Khu vực tuyển sinh của thí sinh được xác định dựa vào đâu?",
+      "expected_context": "Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng",
+      "expected_answer": "Xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề). Nếu thời gian học dài nhất tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "quyền quy định tại Phụ lục I của Quy chế này:\na) Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực\n2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3\n(KV3) không được tính điểm ưu tiên;\nb) Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm\ntrường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung\ncấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương",
+        "19\na) Điểm trúng tuyển được xác định để số lượng tuyển được theo từng\nchương trình đào tạo phù hợp với số lượng tuyển sinh đã công bố theo nguồn\ntuyển và không thấp hơn ngưỡng đầu vào;\nb) Đối với một chương trình đào tạo, tất cả thí sinh được xét chọn bình\nđẳng dựa trên điểm xét và điểm trúng tuyển quy đổi tương đương theo từng\nphương thức xét tuyển, tổ hợp xét tuyển, không phụ thuộc thứ tự ưu tiên của\nnguyện vọng đăng ký trừ trường hợp quy định tại điểm c khoản này;",
+        "4\nđương về mức độ đáp ứng yêu cầu đầu vào của chương trình đào tạo tương ứng\n(sau đây gọi là độ lệch điểm).\n14. Tiêu chí đánh giá là việc sử dụng kết quả thi, kiểm tra để đánh giá\nnăng lực của thí sinh nhằm phân loại thí sinh theo mức độ đáp ứng yêu cầu đầu\nvào của chương trình đào tạo.\n15. Tiêu chí xét tuyển là những tiêu chí được dùng để xác định điều kiện\ntrúng tuyển của thí sinh dựa trên kết quả học tập, kết quả thi hoặc cả kết quả học",
+        "giá và đối sánh kết quả học tập của sinh viên trúng tuyển các năm trước; có trách\nnhiệm xử lý đảm bảo quyền lợi của thí sinh khi phát sinh các tình huống, sự cố\nảnh hưởng đến kết quả thi, kết quả trúng tuyển của thí sinh.\n9. Tuyển sinh của các chương trình đào tạo đặc thù, đào tạo đặt hàng theo\ncác đề án, nhiệm vụ được Chính phủ, Thủ tướng Chính phủ phê duyệt thực hiện\ntheo đề án.\nĐiều 7. Chính sách ưu tiên trong tuyển sinh\n1. Ưu tiên theo khu vực thực hiện theo đơn vị hành chính do cấp có thẩm",
+        "22\nb) Kiểm tra dữ liệu, hướng dẫn thí sinh khai đúng thông tin cá nhân, thông\ntin khu vực, đối tượng ưu tiên (nếu có);\nc) Hỗ trợ việc đăng ký nguyện vọng cho những thí sinh không có điều\nkiện đăng ký trực tuyến;\nd) Hỗ trợ các cơ sở đào tạo trong việc xác nhận kết quả học tập cấp THPT\ncho những thí sinh dự tuyển.\n3. Trách nhiệm của cơ sở đào tạo\na) Cung cấp đầy đủ, đúng định dạng và bảo đảm tính xác thực của thông\ntin, dữ liệu tuyển sinh lên Hệ thống;"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-46",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-95",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-16",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-45",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-111"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.030330882352941176,
+        0.016129032258064516,
+        0.016129032258064516,
+        0.015873015873015872
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G04",
+      "question": "Tổng điểm cộng gồm điểm thưởng và điểm khuyến khích bị giới hạn ở mức nào?",
+      "expected_context": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến khích không vượt quá 10% điểm tối đa của thang điểm xét tuyển",
+      "expected_answer": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng và điểm khuyến khích không được vượt quá 10% điểm tối đa của thang điểm xét tuyển.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "61\nĐiều 43. Điểm khuyến khích\nNgười học tham gia các cuộc thi và các hoạt động dưới đây trong thời gian\nhọc ở cấp THPT được cộng điểm khuyến khích để xét công nhận tốt nghiệp\nTHPT:\n1. Đoạt giải cá nhân trong kỳ thi chọn học sinh giỏi: Đoạt giải nhất, nhì, ba\ntrong kỳ thi quốc gia hoặc giải nhất cấp tỉnh được cộng 2,0 điểm; giải khuyến\nkhích trong kỳ thi quốc gia hoặc giải nhì cấp tỉnh được cộng 1,5 điểm; giải ba cấp\ntỉnh được cộng 1,0 điểm;",
+        "năng khiếu đặc biệt; mức điểm xét thưởng từ 0 - 1,50 điểm theo thang điểm 30;\nc) Điểm khuyến khích dành cho các đối tượng thí sinh có chứng chỉ ngoại\nngữ hoặc có chứng chỉ quốc tế; mức điểm khuyến khích từ 0 - 1,50 điểm theo thang\nđiểm 30.\n21. Xét tuyển thẳng là việc thực hiện quy trình xét tuyển hồ sơ thí sinh và\ncông nhận trúng tuyển đối với những đối tượng xét tuyển thẳng theo quy định\ncủa Quy chế này.\n22. Xét tuyển là quy trình xử lý riêng tại từng cơ sở đào tạo hoặc xử lý",
+        "tượng ưu tiên được quy định tại Quy chế này.\n20. Điểm cộng do cơ sở đào tạo xây dựng và công bố theo các tiêu chí\nthành tích phù hợp với đầu vào chương trình đào tạo bao gồm:\na) Điểm thưởng dành cho các đối tượng thí sinh được xét tuyển thẳng\nnhưng không sử dụng quyền xét tuyển thẳng theo quy định tại khoản 2, Điều 8\ncủa Quy chế này; mức điểm thưởng từ 0 - 3,00 điểm theo thang điểm 30;\nb) Điểm xét thưởng dành cho các đối tượng thí sinh có thành tích hoặc có",
+        "ngành Giáo dục tổ chức hoặc phối hợp với các ngành chuyên môn từ cấp tỉnh trở lên tổ chức ở cấp THPT:\n- Giải nhất, nhì, ba quốc gia hoặc giải nhất cấp tỉnh hoặc Huy chương Vàng: 2,0 điểm.\n- Giải khuyến khích quốc gia hoặc giải tư cuộc thi khoa học kỹ thuật cấp quốc gia hoặc giải nhì\ncấp tỉnh hoặc Huy chương Bạc: 1,5 điểm.\n- Giải ba cấp tỉnh hoặc Huy chương Đồng: 1,0 điểm.\n* Giải đồng đội chỉ tính cho giải quốc gia, mức điểm cộng thêm giống như giải cá nhân."
+      ],
+      "ids": [
+        "news/news_02.md::chunk-3",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-287",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-20",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-19",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-436"
+      ],
+      "sources": [
+        "news_02.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.032266458495966696,
+        0.032018442622950824,
+        0.030330882352941176,
+        0.030090497737556562,
+        0.02964426877470356
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G05",
+      "question": "Điểm xét tuyển tối đa của tổ hợp 3 môn là bao nhiêu, đã gồm điểm cộng và điểm ưu tiên chưa?",
+      "expected_context": "Mỗi thí sinh đều có cơ hội đạt mức điểm tối đa theo thang điểm xét 30 điểm đối với tổ hợp xét tuyển theo 03 môn và bảo đảm không có thí sinh có điểm xét vượt quá mức điểm 30 điểm (bao gồm cả điểm cộng và điểm ưu tiên",
+      "expected_answer": "Thang điểm xét là 30 điểm đối với tổ hợp xét tuyển theo 03 môn, và không thí sinh nào được có điểm xét vượt quá 30 điểm, đã bao gồm cả điểm cộng và điểm ưu tiên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "khích không vượt quá 10% điểm tối đa của thang điểm xét tuyển;\nd) Mỗi thí sinh đều có cơ hội đạt mức điểm tối đa theo thang điểm xét 30\nđiểm đối với tổ hợp xét tuyển theo 03 môn và bảo đảm không có thí sinh có\nđiểm xét vượt quá mức điểm 30 điểm (bao gồm cả điểm cộng và điểm ưu tiên\nquy định tại Điều 7 của Quy chế này).\n3. Nguồn xét tuyển vào chương trình đào tạo trình độ đại học là thí sinh\ncó tổng điểm 03 môn thi kỳ thi tốt nghiệp THPT (kỳ thi trung học nghề đối với",
+        "tập và kết quả thi và các tiêu chí đánh giá khác; được quy thành điểm số để xét\ntuyển (điểm xét tuyển) trong đó đã bao gồm điểm ưu tiên, điểm cộng (nếu có).\n16. Trọng số tính điểm xét của 01 môn trong 01 tổ hợp xét tuyển là phần\nđóng góp của môn đó trong tổ hợp xét tuyển. Tổ hợp có 03 môn (không nhân hệ\nsố) thì trọng số tính điểm xét của 01 môn bất kỳ trong tổ hợp xét tuyển là 1/3.\n17. Dự tuyển là việc một thí sinh tham dự quy trình tuyển sinh vào",
+        "Như năm ngoái, ngoài điểm ưu tiên khu vực, đối tượng, thí sinh có 3 loại điểm cộng do các đại học quy định, gồm: điểm thưởng với giải học sinh giỏi quốc gia nhưng không dùng quyền xét tuyển thẳng (tối đa 3 điểm); điểm xét thưởng với nhóm có thành tích hoặc năng khiếu đặc biệt (tối đa 1,5); điểm khuyến khích với nhóm có chứng chỉ ngoại ngữ hoặc chứng chỉ quốc tế (tối đa 1,5).",
+        "Tổng điểm cộng tối đa với một thí sinh năm nay là 3/30. Vì vậy, dù cả nước chỉ có [5 thủ khoa](https://vnexpress.net/5-thu-khoa-dat-diem-tuyet-doi-30-30-5091518.html) đạt 30/30 điểm tổ hợp ba môn thi tốt nghiệp THPT, các trường vẫn ghi nhận hàng trăm thí sinh có điểm xét tuyển tuyệt đối, thậm chí cao hơn nhờ các loại điểm cộng nói trên.",
+        "khác thì mức điểm ưu tiên được quy đổi tương đương.\n4. Điểm ưu tiên đối với thí sinh đạt tổng điểm từ 22,50 trở lên (khi quy\nđổi về điểm theo thang 10 và theo thang tổng điểm 03 môn tối đa là 30) được\nlàm tròn đến hàng phần trăm và xác định theo công thức sau:\nĐiểm ưu tiên = [(30 - Tổng điểm đạt được)/7,50] x Mức điểm ưu tiên quy\nđịnh tại khoản 1, 2 Điều này\nĐiều 8. Đối tượng xét tuyển thẳng và ưu tiên xét tuyển\n1. Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-35",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-17",
+        "news/news_02.md::chunk-3",
+        "news/news_02.md::chunk-4",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-49"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_02.md",
+        "news_02.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03252247488101534,
+        0.0315136476426799,
+        0.03149801587301587,
+        0.030886196246139225,
+        0.030117753623188408
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G06",
+      "question": "Ai quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên?",
+      "expected_context": "Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên",
+      "expected_answer": "Bộ trưởng Bộ Giáo dục và Đào tạo quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "tuyển sinh, chương trình đào tạo để xét tuyển thẳng, ưu tiên xét tuyển.\nĐiều 9. Ngưỡng đầu vào các chương trình đào tạo chính quy và\nthường xuyên\n1. Ngưỡng đầu vào đối với chương trình đào tạo giáo viên, chương trình\nđào tạo thuộc lĩnh vực sức khỏe, chương trình đào tạo thuộc lĩnh vực pháp luật\nsử dụng phương thức tuyển sinh theo kết quả thi tốt nghiệp THPT, trung học\nnghề được quy định hằng năm như sau:\na) Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình\nđào tạo giáo viên;",
+        "15\n8. Căn cứ yêu cầu bảo đảm chất lượng, cơ sở đào tạo xác định và công bố\nngưỡng đầu vào cho các chương trình đào tạo và phương thức tuyển sinh trước\nthời gian kết thúc đăng ký dự tuyển theo kế hoạch tuyển sinh hằng năm và yêu\ncầu của chuẩn chương trình đào tạo. Đối với ngưỡng đầu vào chương trình đào\ntạo giáo viên, chương trình đào tạo thuộc lĩnh vực sức khỏe có cấp giấy phép\nhành nghề, chương trình đào tạo thuộc lĩnh vực pháp luật ngưỡng đầu vào do cơ",
+        "đào tạo giáo viên;\nb) Bộ trưởng Bộ GDĐT, chủ trì, phối hợp với Bộ trưởng Bộ Y tế quy định\nngưỡng đầu vào đối với chương trình đào tạo thuộc lĩnh vực sức khỏe có cấp\ngiấy phép hành nghề; chủ trì, phối hợp với Bộ trưởng Bộ Tư pháp quy định\nngưỡng đầu vào đối với chương trình đào tạo thuộc lĩnh vực pháp luật.\n2. Đối với phương thức tuyển sinh không sử dụng kết quả thi tốt nghiệp\nTHPT hoặc phương thức tuyển sinh kết hợp, thí sinh phải đạt ngưỡng đầu vào",
+        "a) Đối với thí sinh dự tuyển vào chương trình đào tạo giáo viên, chương\ntrình thuộc lĩnh vực sức khỏe có cấp giấy phép hành nghề, chương trình thuộc\nlĩnh vực pháp luật trừ các trường hợp quy định tại điểm b khoản này, ngưỡng\nđầu vào được áp dụng một trong các tiêu chí sau:\n- Kết quả trung bình chung học tập đánh giá mức tốt (học lực xếp loại từ\ngiỏi trở lên) hoặc điểm trung bình chung các môn văn hóa cấp THPT đạt từ 8,00\ntrở lên theo thang điểm 10;",
+        "năm lớp 12 được đánh giá mức đạt (học lực xếp loại trung bình) và có 05 năm\nkinh nghiệm công tác đúng với chuyên môn đào tạo;\n- Tốt nghiệp trình độ trung cấp, trình độ cao đẳng, trình độ đại học đạt loại\nkhá trở lên.\n7. Đối với người đã trúng tuyển hoặc đã tốt nghiệp các ngành đào tạo giáo\nviên trước ngày 07 tháng 5 năm 2020 nếu dự tuyển vào học đại học để đạt trình\nđộ chuẩn, ngưỡng đầu vào do cơ sở đào tạo quy định."
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-61",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-75",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-62",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-71",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-74"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03225806451612903,
+        0.031746031746031744,
+        0.03055037313432836,
+        0.030090497737556562
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G07",
+      "question": "Những đối tượng nào được xét tuyển thẳng theo quy chế tuyển sinh?",
+      "expected_context": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+      "expected_answer": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân và Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "năng khiếu đặc biệt; mức điểm xét thưởng từ 0 - 1,50 điểm theo thang điểm 30;\nc) Điểm khuyến khích dành cho các đối tượng thí sinh có chứng chỉ ngoại\nngữ hoặc có chứng chỉ quốc tế; mức điểm khuyến khích từ 0 - 1,50 điểm theo thang\nđiểm 30.\n21. Xét tuyển thẳng là việc thực hiện quy trình xét tuyển hồ sơ thí sinh và\ncông nhận trúng tuyển đối với những đối tượng xét tuyển thẳng theo quy định\ncủa Quy chế này.\n22. Xét tuyển là quy trình xử lý riêng tại từng cơ sở đào tạo hoặc xử lý",
+        "trình xét tuyển tại cơ sở đào tạo);\nd) Xác nhận nhập học trên Hệ thống và nhập học tại cơ sở đào tạo.\n2. Căn cứ kế hoạch tuyển sinh chung, cơ sở đào tạo xây dựng kế hoạch\nxét tuyển thẳng, xét tuyển đợt 1 và kế hoạch xét tuyển các đợt bổ sung (nếu có).\nĐiều 13. Tổ chức đăng ký và xét tuyển thẳng\n1. Căn cứ thông tin tuyển sinh đã công bố, cơ sở đào tạo tổ chức cho thí\nsinh thuộc đối tượng được xét tuyển thẳng theo quy định tại Điều 8 của Quy chế\nnày đăng ký dự tuyển.",
+        "phù hợp với năng lực và sức khỏe của thí sinh.\nĐiều 6. Phương thức tuyển sinh và nguồn tuyển\n1. Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm\nxét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.\n2. Mỗi phương thức tuyển sinh phải quy định rõ các tiêu chí đánh giá, xét\ntuyển, cách thức tính điểm xét, điều kiện trúng tuyển trong đó:\na) Các tiêu chí dùng để đánh giá, xét tuyển phải dựa trên yêu cầu về kiến",
+        "11\nđ) Thí sinh đạt giải nhất, nhì, ba trong các kỳ thi tay nghề khu vực\nASEAN và thi tay nghề quốc tế do Bộ GDĐT cử tham gia; thời gian đạt giải\nkhông quá 03 năm tính đến thời điểm xét tuyển thẳng;\ne) Việc xét tuyển thẳng hoặc không được xét tuyển thẳng các đối tượng\nquy định tại điểm b, c, d, đ của khoản này do cơ sở đào tạo quyết định.\n3. Thí sinh có bằng trung cấp ngành sư phạm loại giỏi trở lên hoặc có\nbằng trung cấp ngành sư phạm loại khá và có ít nhất 02 năm làm việc đúng",
+        "này đăng ký dự tuyển.\n2. Cơ sở đào tạo tổ chức xét tuyển thẳng cho những thí sinh đủ điều kiện,\ncông bố và cập nhật danh sách thí sinh đủ điều kiện trúng tuyển (trừ điều kiện\ntốt nghiệp THPT) lên Hệ thống để xử lý nguyện vọng cùng với các phương thức\nxét tuyển khác theo kế hoạch chung; hoàn thành trước khi thí sinh đăng ký xét\ntuyển trên Hệ thống.\n3. Thí sinh đã trúng tuyển vào cơ sở đào tạo theo kế hoạch xét tuyển thẳng\nthực hiện đăng ký nguyện vọng trên Hệ thống theo kế hoạch chung của Bộ"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-20",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-86",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-33",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-53",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-87"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03252247488101534,
+        0.031746031746031744,
+        0.031009615384615385,
+        0.031009615384615385,
+        0.030303030303030304
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G08",
+      "question": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong trường hợp nào?",
+      "expected_context": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trúng tuyển trong những trường hợp sau: a) Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong tập trung ngay trong năm trúng tuyển",
+      "expected_answer": "Được bảo lưu khi đi nghĩa vụ quân sự, công an nhân dân hoặc thanh niên xung phong tập trung ngay trong năm trúng tuyển theo quyết định của cơ quan có thẩm quyền; hoặc bị bệnh nặng, tai nạn nghiêm trọng không thể nhập học đúng hạn.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "sở đào tạo xác định không được thấp hơn quy định tại Điều này.\nĐiều 10. Bảo lưu kết quả trúng tuyển\n1. Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trúng tuyển\ntrong những trường hợp sau:\na) Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong\ntập trung ngay trong năm trúng tuyển theo quyết định hoặc lệnh của cơ quan có\nthẩm quyền;\nb) Bị bệnh nặng hoặc bị tai nạn nghiêm trọng không thể nhập học đúng\nhạn, có hồ sơ y tế và xác nhận của bệnh viện cấp cơ bản trở lên.",
+        "2. Thí sinh thuộc diện quy định tại khoản 1 gửi đơn xin bảo lưu kèm theo\ngiấy tờ minh chứng tới cơ sở đào tạo gọi nhập học. Thời gian tối đa được bảo\nlưu kết quả do cơ sở đào tạo quy định, nhưng không quá 36 tháng đối với người\nquy định tại khoản 1 Điều này.\n3. Ngay sau khi đủ điều kiện đi học trở lại, người được bảo lưu kết quả\ntrúng tuyển phải thực hiện thủ tục nhập học theo quy định của cơ sở đào tạo,\ntrong đó phải cung cấp minh chứng đã hoàn thành nhiệm vụ hoặc đã được điều",
+        "Mục 16: Thí sinh đã dự thi THPT năm trước, nếu có những môn thi đủ điều kiện bảo lưu theo quy\nđịnh, thí sinh muốn bảo lưu điểm của môn thi nào thì ghi điểm môn thi đó vào ô tương ứng./.",
+        "việc tiếp nhận thí sinh vào học hoặc bảo lưu kết quả tuyển sinh để thí sinh vào\nhọc; lập hồ sơ lưu trữ và báo cáo danh sách riêng thí sinh bị sự cố trong báo cáo\nkết quả tuyển sinh hằng năm.\n5. Thí sinh đã xác nhận nhập học tại một cơ sở đào tạo không được tham\ngia xét tuyển ở nơi khác hoặc ở các đợt xét tuyển bổ sung trong năm tuyển sinh,\ntrừ trường hợp được Hiệu trưởng cơ sở đào tạo trúng tuyển cho phép.\nĐiều 17. Tổ chức đăng ký và xét tuyển các đợt bổ sung",
+        "5,0 điểm trở lên.\n2. Thí sinh có điểm bảo lưu theo quy định tại khoản 1 của Điều này, để\nđược xét công nhận tốt nghiệp của kỳ thi năm liền kề tiếp theo phải đăng ký dự\nthi theo quy định tại điểm a khoản 2 Điều 20 của Quy chế này (trong đó phải có\nmôn thi được bảo lưu) và chỉ dự thi những môn thi mà không có điểm bảo lưu.\nTrong trường hợp thí sinh dự thi môn thi được bảo lưu thì phải sử dụng kết quả\nthi để xét công nhận tốt nghiệp.\nĐiều 42. Điểm ưu tiên"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-76",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-77",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-407",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-104",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-277"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03200204813108039,
+        0.029211087420042643,
+        0.016129032258064516,
+        0.015873015873015872
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G09",
+      "question": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng thì thí sinh phải đáp ứng điều kiện gì?",
+      "expected_context": "người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm ngoại ngữ",
+      "expected_answer": "Thí sinh phải có kết quả học tập tối thiểu 02 học kỳ lớp 12, hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo, trừ trường hợp xét tuyển vào ngành ngôn ngữ hoặc sư phạm ngoại ngữ.",
+      "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+      "contexts": [
+        "thức nền tảng và năng lực cốt lõi mà thí sinh cần có để theo học chương trình\nđào tạo;\nb) Phương thức xét tuyển không thể hiện được yêu cầu ở điểm a khoản\nnày thì người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc\ncó điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương\ntrình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm\nngoại ngữ;\nc) Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến",
+        "phù hợp với năng lực và sức khỏe của thí sinh.\nĐiều 6. Phương thức tuyển sinh và nguồn tuyển\n1. Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm\nxét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.\n2. Mỗi phương thức tuyển sinh phải quy định rõ các tiêu chí đánh giá, xét\ntuyển, cách thức tính điểm xét, điều kiện trúng tuyển trong đó:\na) Các tiêu chí dùng để đánh giá, xét tuyển phải dựa trên yêu cầu về kiến",
+        "**[11 phương thức xét tuyển theo dự thảo của Bộ](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397-p2.html \"11 phương thức xét tuyển theo dự thảo của Bộ\")**\n\nNgoài điều chỉnh trên, Bộ còn dự kiến không sử dụng điểm cộng ngoài điểm ưu tiên khu vực, đối tượng; xác định rõ nguồn tuyển và ngưỡng đầu vào, yêu cầu chuẩn hóa độ lệch giữa các tổ hợp, không yêu cầu thí sinh nộp lại giấy tờ, chứng chỉ có trên hệ thống...",
+        "không đủ điều kiện;\nb) Cung cấp đầy đủ, tự chịu trách nhiệm về tính chính xác của tất cả thông\ntin đăng ký dự tuyển, bao gồm cả thông tin cá nhân, thông tin khu vực và đối\ntượng ưu tiên (nếu có), nguyện vọng đăng ký, chứng chỉ ngoại ngữ (nếu có);\ntính xác thực của các giấy tờ minh chứng;\nc) Đồng ý để cơ sở đào tạo mà mình dự tuyển được quyền sử dụng thông\ntin, dữ liệu cần thiết phục vụ cho công tác xét tuyển;\nd) Tự chịu trách nhiệm về rủi ro phát sinh khi sử dụng kết quả các kỳ thi",
+        "4\nđương về mức độ đáp ứng yêu cầu đầu vào của chương trình đào tạo tương ứng\n(sau đây gọi là độ lệch điểm).\n14. Tiêu chí đánh giá là việc sử dụng kết quả thi, kiểm tra để đánh giá\nnăng lực của thí sinh nhằm phân loại thí sinh theo mức độ đáp ứng yêu cầu đầu\nvào của chương trình đào tạo.\n15. Tiêu chí xét tuyển là những tiêu chí được dùng để xác định điều kiện\ntrúng tuyển của thí sinh dựa trên kết quả học tập, kết quả thi hoặc cả kết quả học"
+      ],
+      "ids": [
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-34",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-33",
+        "news/news_03.md::chunk-9",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-109",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-16"
+      ],
+      "sources": [
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "news_03.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "thong tu 06 2026 quy che tuyen sinh",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03128054740957967,
+        0.030798389007344232,
+        0.016129032258064516,
+        0.015873015873015872
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G10",
+      "question": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn bao lâu kể từ ngày công bố điểm thi?",
+      "expected_context": "Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05 ngày kể từ ngày công bố điểm thi",
+      "expected_answer": "Nơi thí sinh đăng ký dự thi nhận đơn phúc khảo trong thời hạn 05 ngày kể từ ngày công bố điểm thi.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "52\n2.14 Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05\nngày kể từ ngày công bố điểm thi và chuyển dữ liệu thí sinh có đơn phúc khảo bài\nthi đến Hội đồng thi. Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc\nkhảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh.\n3. Địa điểm tổ chức phúc khảo được bố trí tại khu vực bảo đảm các điều\nkiện theo quy định tại Điều 31 Quy chế này.",
+        "THPT do phúc khảo hoặc giải quyết khiếu nại về hồ sơ thi;\nd) Đĩa CD chứa dữ liệu thi;\nđ) Những biên bản liên quan;\ne) Các loại hồ sơ khác theo hướng dẫn hằng năm của Bộ GDĐT.\n2.22 Trình tự duyệt công nhận tốt nghiệp THPT:\na) Trong vòng 05 ngày kể từ ngày công bố kết quả thi, Giám đốc sở GDĐT\nduyệt công nhận tốt nghiệp THPT đối với các thí sinh đủ điều kiện và chịu trách\nnhiệm trước Bộ GDĐT về kết quả công nhận tốt nghiệp THPT của tỉnh mình;",
+        "63\n2. Trong vòng 05 ngày kể từ ngày công bố kết quả thi, Hội đồng xét công\nnhận tốt nghiệp THPT thực hiện việc xét công nhận tốt nghiệp THPT cho thí sinh\ntheo quy định của Quy chế này.\nĐiều 47. Duyệt công nhận tốt nghiệp THPT\n1. Hồ sơ duyệt công nhận tốt nghiệp THPT bao gồm:\na) Bảng ghi thông tin xét công nhận tốt nghiệp THPT;\nb) Danh sách thí sinh được đề nghị công nhận tốt nghiệp THPT;\nc) Danh sách và hồ sơ thí sinh được đặc cách, miễn thi, được tốt nghiệp",
+        "phổ thông in và cấp Giấy chứng nhận kết quả thi cho thí sinh. Mỗi thí sinh được\ncấp một Giấy chứng nhận kết quả thi với mã số xác định duy nhất.\n4. Tất cả các tài liệu liên quan đến điểm bài thi đều phải niêm phong và do\nChủ tịch Hội đồng thi tổ chức thực hiện bảo quản theo quy định.\nĐiều 37. Phúc khảo bài thi\n1. Mọi thí sinh đều có quyền được phúc khảo bài thi; thí sinh nộp đơn phúc\nkhảo tại nơi ĐKDT.\n13 Điều này được sửa đổi theo quy định tại Điều 9 của Thông tư số 13/2026/TT-BGDĐT",
+        "chứng về việc thời gian tổ chức kỳ thi tốt nghiệp THPT trùng với thời gian vận\nđộng viên tập huấn ở nước ngoài hoặc tham dự thi đấu tại các giải thể thao quốc\ntế.\n4. Thủ tục:\na) Chậm nhất 07 ngày sau buổi thi cuối cùng của kỳ thi, thí sinh phải nộp\nhồ sơ đặc cách cho Thủ trưởng đơn vị nơi thí sinh ĐKDT. Thủ trưởng đơn vị nơi\nthí sinh ĐKDT chịu trách nhiệm thu nhận và chuyển giao hồ sơ đặc cách cho sở\nGDĐT;"
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-240",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-296",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-295",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-238",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-274"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03225806451612903,
+        0.031024531024531024,
+        0.03007688828584351,
+        0.028991596638655463
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G11",
+      "question": "Sau khi hết hạn nhận đơn phúc khảo, hội đồng thi phải hoàn thành việc chấm phúc khảo trong bao lâu?",
+      "expected_context": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo",
+      "expected_answer": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "52\n2.14 Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05\nngày kể từ ngày công bố điểm thi và chuyển dữ liệu thí sinh có đơn phúc khảo bài\nthi đến Hội đồng thi. Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc\nkhảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh.\n3. Địa điểm tổ chức phúc khảo được bố trí tại khu vực bảo đảm các điều\nkiện theo quy định tại Điều 31 Quy chế này.",
+        "giao cho Chủ tịch Hội đồng thi để cập nhật kết quả vào cơ sở dữ liệu của hệ thống\nQuản lý thi và lưu trữ;\nc) Kết thúc việc chấm phúc khảo, Tổ phúc khảo bài thi trắc nghiệm lập biên\nbản tổng hợp, có chữ ký của lãnh đạo Ban Phúc khảo và tất cả các thành viên, Tổ\nGiám sát;\nd) Tổ Giám sát phải thực hiện nhiệm vụ giám sát trực tiếp, thường xuyên,\nliên tục tất cả các khâu trong quá trình phúc khảo bài thi trắc nghiệm.\n7.17 Điểm các bài thi được điều chỉnh sau phúc khảo do Trưởng ban Phúc",
+        "khảo trình Chủ tịch Hội đồng thi quyết định. Chủ tịch Hội đồng thi cập nhật điểm\ncủa thí sinh sau phúc khảo vào hệ thống Quản lý thi theo quy định của Bộ GDĐT;\ngửi dữ liệu về Bộ GDĐT qua hệ thống Quản lý thi.\n8. Hội đồng thi in Giấy chứng nhận kết quả thi sau phúc khảo trả cho thí\nsinh có bài thi được điều chỉnh điểm; đồng thời, thu hồi và hủy Giấy chứng nhận\nkết quả thi trước phúc khảo.\nĐiều 38. Chấm thẩm định",
+        "chấm phúc khảo theo quy định tại Điều 33 Quy chế này và phải được chấm bằng\nmực có màu khác với màu mực được dùng chấm trước đó trên bài làm của thí\nsinh. Trong khi tiến hành các công việc liên quan đến phúc khảo, phải có ít nhất\ntừ hai thành viên của Ban Phúc khảo trở lên. Kết quả chấm phúc khảo bài thi tự\nluận do Ban Thư ký xử lý như sau:\n14 Khoản này được sửa đổi theo quy định tại khoản 1 Điều 10 của Thông tư số 13/2026/TT-BGDĐT",
+        "có trong túi;\nc) Đối với bài thi tự luận: Bàn giao bài thi của thí sinh có đơn phúc khảo\ncho Ban Làm phách để làm phách; tiếp nhận bài thi đã được làm phách từ Ban\nLàm phách và giao cho Ban Phúc khảo để chấm phúc khảo;\nd) Việc giao nhận bài thi giữa Ban Thư ký và Ban Phúc khảo thực hiện theo\nquy định tại Điều 33 Quy chế này; khi bàn giao bài thi trắc nghiệm cần bàn giao\nPhiếu thu bài thi tương ứng.\n5. Chấm phúc khảo bài thi tự luận: Mỗi bài thi tự luận do hai Giám khảo"
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-240",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-251",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-252",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-243",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-242"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03200204813108039,
+        0.031009615384615385,
+        0.030798389007344232,
+        0.03055037313432836
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G12",
+      "question": "Thí sinh đoạt giải ba cấp tỉnh được cộng bao nhiêu điểm khuyến khích khi xét công nhận tốt nghiệp THPT?",
+      "expected_context": "giải ba cấp tỉnh được cộng 1,0 điểm",
+      "expected_answer": "Được cộng 1,0 điểm khuyến khích.",
+      "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+      "contexts": [
+        "61\nĐiều 43. Điểm khuyến khích\nNgười học tham gia các cuộc thi và các hoạt động dưới đây trong thời gian\nhọc ở cấp THPT được cộng điểm khuyến khích để xét công nhận tốt nghiệp\nTHPT:\n1. Đoạt giải cá nhân trong kỳ thi chọn học sinh giỏi: Đoạt giải nhất, nhì, ba\ntrong kỳ thi quốc gia hoặc giải nhất cấp tỉnh được cộng 2,0 điểm; giải khuyến\nkhích trong kỳ thi quốc gia hoặc giải nhì cấp tỉnh được cộng 1,5 điểm; giải ba cấp\ntỉnh được cộng 1,0 điểm;",
+        "ngành Giáo dục tổ chức hoặc phối hợp với các ngành chuyên môn từ cấp tỉnh trở lên tổ chức ở cấp THPT:\n- Giải nhất, nhì, ba quốc gia hoặc giải nhất cấp tỉnh hoặc Huy chương Vàng: 2,0 điểm.\n- Giải khuyến khích quốc gia hoặc giải tư cuộc thi khoa học kỹ thuật cấp quốc gia hoặc giải nhì\ncấp tỉnh hoặc Huy chương Bạc: 1,5 điểm.\n- Giải ba cấp tỉnh hoặc Huy chương Đồng: 1,0 điểm.\n* Giải đồng đội chỉ tính cho giải quốc gia, mức điểm cộng thêm giống như giải cá nhân.",
+        "tỉnh được cộng 1,0 điểm;\n2. Đoạt giải cá nhân và đồng đội trong các kỳ thi thí nghiệm thực hành môn\nVật lý, Hóa học, Sinh học; thi văn nghệ; thể dục thể thao; hội thao giáo dục quốc\nphòng; cuộc thi khoa học kỹ thuật; viết thư quốc tế do ngành Giáo dục phối hợp\nvới các ngành chuyên môn từ cấp tỉnh trở lên tổ chức.\na) Đối với giải cá nhân: Đoạt giải nhất, nhì, ba quốc gia hoặc giải nhất cấp\ntỉnh hoặc Huy chương Vàng được cộng 2,0 điểm; giải khuyến khích quốc gia hoặc",
+        "I I. ĐIỂM KHUYẾN KHÍCH\n1. Đoạt giải cá nhân kỳ thi học sinh giỏi bộ môn văn hoá lớp 12:\n- Giải nhất, nhì, ba cấp quốc g ia hoặc giải nhất cấp tỉnh: 2,0 điểm.\n- Giải khuyến khích cấp quốc gia hoặc giải nhì cấp tỉnh: 1,5 điểm.\n- Giải ba cấp tỉnh: 1,0 điểm.\n2. Đoạt giải cá nhân và đồng đội trong các kỳ thi thí nghiệm thực hành môn Vật lí, Hoá học, Sinh học; thi\nvăn nghệ; thể dục thể thao; hội thao giáo dục quốc phòng; cuộc thi khoa học kỹ thuật; viết thư quốc tế do",
+        "giải tư cuộc thi khoa học kỹ thuật cấp quốc gia hoặc giải nhì cấp tỉnh hoặc Huy\nchương Bạc được cộng 1,5 điểm; giải ba cấp tỉnh hoặc Huy chương Đồng được\ncộng 1,0 điểm;\nb) Đối với giải đồng đội: Chỉ cộng điểm đối với giải quốc gia; số lượng cầu\nthủ, vận động viên, diễn viên của giải đồng đội theo quy định cụ thể của Ban Tổ\nchức từng giải; mức điểm khuyến khích được cộng cho các cá nhân trong giải\nđồng đội được thực hiện như đối với giải cá nhân quy định tại điểm này."
+      ],
+      "ids": [
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-287",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-436",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-288",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-435",
+        "legal/vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md::chunk-289"
+      ],
+      "sources": [
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+      ],
+      "titles": [
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt",
+        "vbhn 02 2026 quy che thi tot nghiep thpt"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.031754032258064516,
+        0.031746031746031744,
+        0.03128054740957967,
+        0.029857397504456328
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G13",
+      "question": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành đào tạo được dùng mấy phương thức tuyển sinh?",
+      "expected_context": "Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+      "expected_answer": "Theo dự thảo, các trường được dùng tối đa 5 phương thức nhưng mỗi ngành hoặc chương trình đào tạo chỉ được dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+      "expected_source": "news_01.md",
+      "contexts": [
+        "Nhưng Bộ Giáo dục và Đào tạo [dự kiến sửa quy chế tuyển sinh](https://vnexpress.net/bo-giao-duc-va-dao-tao-doi-y-lui-lich-siet-phuong-thuc-tuyen-sinh-dai-hoc-5121531.html). Cụ thể, năm 2027, các trường có tối đa ba phương thức tuyển sinh cho một ngành, giảm hai so với năm nay. Và từ năm 2028 - thời điểm con chị Hà thi tốt nghiệp, một ngành chỉ được xét bằng một cách.",
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "Cụ thể, Bộ vẫn [giới hạn](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397.html) phương thức xét tuyển đại học nhưng theo lộ trình. Năm 2027, các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Mỗi ngành, chương trình đào tạo sẽ được áp dụng ba phương thức, thay vì một như dự thảo ban đầu.",
+        "Bộ dự kiến các trường được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển. Tuy nhiên, mỗi ngành, chương trình chỉ được áp dụng ba phương thức, giảm hai so với năm nay. Từ năm 2028, con số này giảm xuống chỉ còn một phương thức với một ngành, chương trình.",
+        "# Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027\n\n**Source:** https://vnexpress.net/bo-giao-duc-va-dao-tao-neu-ly-do-siet-phuong-thuc-tuyen-sinh-dai-hoc-2027-5121541.html\n\n**Crawled:** 2026-09-20T17:41:43.955151\n\n---\n\nBộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027\n========================================================================="
+      ],
+      "ids": [
+        "news/news_05.md::chunk-3",
+        "news/news_01.md::chunk-2",
+        "news/news_04.md::chunk-2",
+        "news/news_03.md::chunk-2",
+        "news/news_03.md::chunk-0"
+      ],
+      "sources": [
+        "news_05.md",
+        "news_01.md",
+        "news_04.md",
+        "news_03.md",
+        "news_03.md"
+      ],
+      "titles": [
+        "Phụ huynh, thí sinh 'chới với' vì dự kiến siết phương thức tuyển sinh đại học",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Đổi lộ trình siết phương thức tuyển sinh đại học 2027",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027",
+        "Bộ Giáo dục và Đào tạo nêu lý do siết phương thức tuyển sinh đại học 2027"
+      ],
+      "scores": [
+        0.032018442622950824,
+        0.03200204813108039,
+        0.031099324975891997,
+        0.016129032258064516,
+        0.015873015873015872
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G14",
+      "question": "Dự kiến từ năm 2027, thí sinh còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi không?",
+      "expected_context": "Thí sinh không còn được cộng tối đa 3 điểm với chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học từ năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.",
+      "expected_answer": "Không. Theo dự kiến của Bộ Giáo dục và Đào tạo, từ năm 2027 thí sinh không còn được cộng tối đa 3 điểm cho chứng chỉ IELTS hay giải học sinh giỏi; chỉ còn điểm ưu tiên theo khu vực và đối tượng chính sách.",
+      "expected_source": "news_02.md",
+      "contexts": [
+        "Thí sinh không còn được cộng tối đa 3 điểm với chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học từ năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.\n\nNội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định tuyển sinh và đào tạo đại học, do Bộ công bố chiều 17/9.",
+        "\"Vì không có điểm ưu tiên, em thi chứng chỉ ngoại ngữ để cạnh tranh\", Minh nói.\n\nTuy nhiên, Bộ Giáo dục và Đào tạo dự kiến từ năm 2027 sẽ chỉ còn điểm ưu tiên khu vực và đối tượng, các trường không được tự đặt ra điểm cộng cho thành tích, chứng chỉ. Hiện điểm cộng với chứng chỉ như IELTS tối đa là 1,5/30.\n\n\"Nếu vậy, chứng chỉ mà em cố giành được có nguy cơ vô ích khi xét tuyển\", Minh lo lắng.",
+        "# Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học\n\n**Source:** https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html\n\n**Crawled:** 2026-09-20T17:41:43.459371\n\n---\n\nDự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học\n======================================================================",
+        "Các trường chỉ được dùng một phương thức tuyển sinh ở một ngành, là thay đổi lớn nhất trong xét tuyển đại học năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.\n\n**[Dự kiến bỏ điểm cộng IELTS và chứng chỉ quốc tế](https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html)**",
+        "Cụ thể, Bộ dự kiến từ năm 2027 sẽ chỉ còn điểm ưu tiên theo khu vực, đối tượng chính sách. Các trường không được sử dụng điểm cộng do mình tự quy định cho thành tích, chứng chỉ hoặc tiêu chí bổ sung.\n\nĐây là điểm mới nổi bật, bên cạnh việc [siết phương thức xét tuyển](https://vnexpress.net/bo-giao-duc-va-dao-tao-neu-ly-do-siet-phuong-thuc-tuyen-sinh-dai-hoc-2027-5121541.html) theo mỗi ngành."
+      ],
+      "ids": [
+        "news/news_02.md::chunk-1",
+        "news/news_06.md::chunk-2",
+        "news/news_02.md::chunk-0",
+        "news/news_01.md::chunk-1",
+        "news/news_02.md::chunk-2"
+      ],
+      "sources": [
+        "news_02.md",
+        "news_06.md",
+        "news_02.md",
+        "news_01.md",
+        "news_02.md"
+      ],
+      "titles": [
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "Nhiều học sinh lo mất lợi thế nếu bỏ cộng điểm IELTS",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.03200204813108039,
+        0.031754032258064516,
+        0.03125763125763126,
+        0.031009615384615385
+      ],
+      "method": "hybrid"
+    },
+    {
+      "id": "G15",
+      "question": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ yêu cầu bao nhiêu phần trăm số trường đang đào tạo ngành đó phải đề xuất?",
+      "expected_context": "Để đổi tên hay bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+      "expected_answer": "Cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+      "expected_source": "news_07.md",
+      "contexts": [
+        "Việc đổi tên ngành sẽ dựa trên căn cứ khoa học, thực tiễn, nhu cầu nhân lực hoặc các bảng phân loại thông dụng trên thế giới. Để đổi tên hay bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.\n\nTheo một số chuyên gia, việc sắp xếp lại danh mục ngành là hợp lý, tránh tình trạng mã ngành quá \"vụn\" như hiện nay. Các trường cần lưu ý thí sinh việc này để tránh hiểu nhầm một ngành đào tạo nào đó bị bỏ nhưng thực ra chỉ đổi tên hay mã ngành.",
+        "Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.\n\nCụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+        "Một số ngành được đổi tên như Kỹ thuật dệt đổi thành Kỹ thuật dệt, may; Bảo tồn thiên nhiên, môi trường và phát triển bền vững thành Bảo tồn thiên nhiên và đa dạng sinh học.\n\nBộ cho biết việc xây dựng danh mục mới nhằm chuẩn hóa hệ thống phân loại và phát triển các ngành; phục vụ tuyển sinh, đào tạo, kiểm định chất lượng, cấp và quản lý văn bằng...\n\n**[Danh mục ngành mới và các ngành được sắp xếp lại](https://attachment.vnecdn.net/2026/09/17/74-bgddt-signed-pdf.pdf)**",
+        "Thí sinh có chứng chỉ năng lực ngoại ngữ vẫn có thể được quy đổi thành môn ngoại ngữ trong tổ hợp xét tuyển hoặc dùng để chứng minh yêu cầu đầu vào của chương trình đào tạo bằng ngoại ngữ. Khi đó, chứng chỉ như một minh chứng năng lực có liên quan trực tiếp, thay vì trở thành một khoản điểm cộng ngoài thang đo.\n\nBộ lấy ý kiến góp ý dự thảo đến ngày 23/9.\n\n**[Đổi tên hàng loạt ngành ở đại học](https://vnexpress.net/sap-xep-doi-ten-hang-loat-nganh-o-dai-hoc-5121259.html)**",
+        "thức nền tảng và năng lực cốt lõi mà thí sinh cần có để theo học chương trình\nđào tạo;\nb) Phương thức xét tuyển không thể hiện được yêu cầu ở điểm a khoản\nnày thì người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc\ncó điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương\ntrình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm\nngoại ngữ;\nc) Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến"
+      ],
+      "ids": [
+        "news/news_07.md::chunk-5",
+        "news/news_01.md::chunk-2",
+        "news/news_07.md::chunk-4",
+        "news/news_02.md::chunk-8",
+        "legal/thong-tu-06-2026-quy-che-tuyen-sinh.md::chunk-34"
+      ],
+      "sources": [
+        "news_07.md",
+        "news_01.md",
+        "news_07.md",
+        "news_02.md",
+        "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+      ],
+      "titles": [
+        "Sắp xếp, đổi tên hàng loạt ngành ở đại học",
+        "Dự kiến siết phương thức xét tuyển đại học 2027",
+        "Sắp xếp, đổi tên hàng loạt ngành ở đại học",
+        "Dự kiến bỏ điểm cộng IELTS, giải học sinh giỏi trong xét tuyển đại học",
+        "thong tu 06 2026 quy che tuyen sinh"
+      ],
+      "scores": [
+        0.03278688524590164,
+        0.0315136476426799,
+        0.03057889822595705,
+        0.016129032258064516,
+        0.015873015873015872
+      ],
+      "method": "hybrid"
+    }
+  ]
+}

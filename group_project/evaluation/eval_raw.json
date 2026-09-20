@@ -1,0 +1,574 @@
+{
+  "top_k": 5,
+  "score_threshold": 0.51,
+  "n_cases": 15,
+  "A": {
+    "rows": [
+      {
+        "id": "G01",
+        "question": "Một cơ sở đào tạo được sử dụng tối đa bao nhiêu phương thức tuyển sinh?",
+        "answer": "Một cơ sở đào tạo được sử dụng tối đa 05 phương thức tuyển sinh [1, 3, 4, 2].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "news_01.md",
+          "news_03.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_04.md",
+          "news_05.md"
+        ],
+        "top_score": 0.7358113527297974,
+        "context_recall": 1.0,
+        "context_precision": 0.3333,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G02",
+        "question": "Mức điểm ưu tiên khu vực đối với KV1, KV2-NT, KV2 và KV3 là bao nhiêu?",
+        "answer": "Mức điểm ưu tiên khu vực được quy định như sau:\n- Khu vực 1 (KV1): 0,75 điểm [1].\n- Khu vực 2 nông thôn (KV2-NT): 0,50 điểm [1].\n- Khu vực 2 (KV2): 0,25 điểm [1].\n- Khu vực 3 (KV3): không được tính điểm ưu tiên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_02.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.7366836071014404,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G03",
+        "question": "Khu vực tuyển sinh của thí sinh được xác định dựa vào đâu?",
+        "answer": "Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề) [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_08.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_01.md"
+        ],
+        "top_score": 0.6402339935302734,
+        "context_recall": 0.7037,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G04",
+        "question": "Tổng điểm cộng gồm điểm thưởng và điểm khuyến khích bị giới hạn ở mức nào?",
+        "answer": "Tổng điểm cộng tối đa với một thí sinh là 3/30 [3].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "news_02.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "news_02.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.6601836085319519,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G05",
+        "question": "Điểm xét tuyển tối đa của tổ hợp 3 môn là bao nhiêu, đã gồm điểm cộng và điểm ưu tiên chưa?",
+        "answer": "Điểm xét tuyển tối đa của tổ hợp 3 môn là 30 điểm, đã bao gồm cả điểm cộng và điểm ưu tiên [2].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "news_02.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_02.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.6922906041145325,
+        "context_recall": 1.0,
+        "context_precision": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G06",
+        "question": "Ai quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên?",
+        "answer": "Bộ trưởng Bộ Giáo dục và Đào tạo quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.7155416011810303,
+        "context_recall": 1.0,
+        "context_precision": 0.8333,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G07",
+        "question": "Những đối tượng nào được xét tuyển thẳng theo quy chế tuyển sinh?",
+        "answer": "Các đối tượng được xét tuyển thẳng bao gồm: Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ [1]. Ngoài ra, thí sinh đạt giải nhất, nhì, ba trong các kỳ thi tay nghề khu vực ASEAN và thi tay nghề quốc tế do Bộ GDĐT cử tham gia, với thời gian đạt giải không quá 03 năm tính đến thời điểm xét tuyển thẳng, cũng có thể được xem xét xét tuyển thẳng [4]. Việc xét tuyển thẳng các đối tượng này do cơ sở đào tạo quyết định [4].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.6660177707672119,
+        "context_recall": 0.3077,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G08",
+        "question": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong trường hợp nào?",
+        "answer": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong các trường hợp sau:\n\n- Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong tập trung ngay trong năm trúng tuyển theo quyết định hoặc lệnh của cơ quan có thẩm quyền [1].\n- Bị bệnh nặng hoặc bị tai nạn nghiêm trọng không thể nhập học đúng hạn, có hồ sơ y tế và xác nhận của bệnh viện cấp cơ bản trở lên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.8025091886520386,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G09",
+        "question": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng thì thí sinh phải đáp ứng điều kiện gì?",
+        "answer": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng và năng lực cốt lõi mà thí sinh cần có để theo học chương trình đào tạo, thì người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo, trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm ngoại ngữ [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_03.md",
+          "news_01.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.6658393144607544,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G10",
+        "question": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn bao lâu kể từ ngày công bố điểm thi?",
+        "answer": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn 05 ngày kể từ ngày công bố điểm thi [1].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.7578480839729309,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G11",
+        "question": "Sau khi hết hạn nhận đơn phúc khảo, hội đồng thi phải hoàn thành việc chấm phúc khảo trong bao lâu?",
+        "answer": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh [1].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.7415362596511841,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G12",
+        "question": "Thí sinh đoạt giải ba cấp tỉnh được cộng bao nhiêu điểm khuyến khích khi xét công nhận tốt nghiệp THPT?",
+        "answer": "Thí sinh đoạt giải ba cấp tỉnh được cộng 1,0 điểm khuyến khích khi xét công nhận tốt nghiệp THPT [1], [2].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "news_02.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.719929039478302,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G13",
+        "question": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành đào tạo được dùng mấy phương thức tuyển sinh?",
+        "answer": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành, chương trình đào tạo sẽ được áp dụng ba phương thức [1], [2], [4].",
+        "expected_source": "news_01.md",
+        "retrieved_sources": [
+          "news_04.md",
+          "news_03.md",
+          "news_01.md",
+          "news_05.md",
+          "news_04.md"
+        ],
+        "top_score": 0.7619110345840454,
+        "context_recall": 1.0,
+        "context_precision": 0.3333,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G14",
+        "question": "Dự kiến từ năm 2027, thí sinh còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi không?",
+        "answer": "Theo dự kiến của Bộ Giáo dục và Đào tạo, từ năm 2027, thí sinh sẽ không còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học [1]. Các trường sẽ không được phép tự quy định điểm cộng cho các thành tích, chứng chỉ hoặc tiêu chí bổ sung mà chỉ còn áp dụng điểm ưu tiên theo khu vực và đối tượng chính sách [2], [5].",
+        "expected_source": "news_02.md",
+        "retrieved_sources": [
+          "news_02.md",
+          "news_06.md",
+          "news_01.md",
+          "news_02.md",
+          "news_02.md"
+        ],
+        "top_score": 0.784040093421936,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G15",
+        "question": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ yêu cầu bao nhiêu phần trăm số trường đang đào tạo ngành đó phải đề xuất?",
+        "answer": "Để đổi tên hoặc bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất [1].",
+        "expected_source": "news_07.md",
+        "retrieved_sources": [
+          "news_07.md",
+          "news_01.md",
+          "news_07.md",
+          "news_07.md",
+          "news_05.md"
+        ],
+        "top_score": 0.7532980442047119,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      }
+    ],
+    "overall": {
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 0.8674266666666667,
+      "context_precision": 0.7999933333333333
+    }
+  },
+  "B": {
+    "rows": [
+      {
+        "id": "G01",
+        "question": "Một cơ sở đào tạo được sử dụng tối đa bao nhiêu phương thức tuyển sinh?",
+        "answer": "Một cơ sở đào tạo được sử dụng tối đa 05 phương thức tuyển sinh, không bao gồm xét tuyển thẳng, xét tuyển đối tượng cử tuyển và xét tuyển đối tượng dự bị đại học [2]. Các nguồn tin khác cũng xác nhận các trường đại học được sử dụng tối đa 5 cách tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển [1], [3], [4].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "news_01.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_03.md",
+          "news_04.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G02",
+        "question": "Mức điểm ưu tiên khu vực đối với KV1, KV2-NT, KV2 và KV3 là bao nhiêu?",
+        "answer": "Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực 2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm. Khu vực 3 (KV3) không được tính điểm ưu tiên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G03",
+        "question": "Khu vực tuyển sinh của thí sinh được xác định dựa vào đâu?",
+        "answer": "Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề) [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 0.7037,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G04",
+        "question": "Tổng điểm cộng gồm điểm thưởng và điểm khuyến khích bị giới hạn ở mức nào?",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "news_02.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.032266458495966696,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0
+      },
+      {
+        "id": "G05",
+        "question": "Điểm xét tuyển tối đa của tổ hợp 3 môn là bao nhiêu, đã gồm điểm cộng và điểm ưu tiên chưa?",
+        "answer": "Điểm xét tuyển tối đa của tổ hợp 3 môn là 30 điểm, bao gồm cả điểm cộng và điểm ưu tiên theo quy định [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_02.md",
+          "news_02.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03252247488101534,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G06",
+        "question": "Ai quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên?",
+        "answer": "Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 0.8333,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G07",
+        "question": "Những đối tượng nào được xét tuyển thẳng theo quy chế tuyển sinh?",
+        "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03252247488101534,
+        "context_recall": 0.0,
+        "context_precision": 0.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 0.0
+      },
+      {
+        "id": "G08",
+        "question": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong trường hợp nào?",
+        "answer": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong các trường hợp sau:\n*   Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong tập trung ngay trong năm trúng tuyển theo quyết định hoặc lệnh của cơ quan có thẩm quyền [1].\n*   Bị bệnh nặng hoặc bị tai nạn nghiêm trọng không thể nhập học đúng hạn, có hồ sơ y tế và xác nhận của bệnh viện cấp cơ bản trở lên [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G09",
+        "question": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng thì thí sinh phải đáp ứng điều kiện gì?",
+        "answer": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng và năng lực cốt lõi, người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo [1]. Quy định này không áp dụng đối với trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm ngoại ngữ [1].",
+        "expected_source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+        "retrieved_sources": [
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "news_03.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G10",
+        "question": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn bao lâu kể từ ngày công bố điểm thi?",
+        "answer": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn 05 ngày kể từ ngày công bố điểm thi [1].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G11",
+        "question": "Sau khi hết hạn nhận đơn phúc khảo, hội đồng thi phải hoàn thành việc chấm phúc khảo trong bao lâu?",
+        "answer": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo, Hội đồng thi phải công bố và thông báo kết quả phúc khảo cho thí sinh [1].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G12",
+        "question": "Thí sinh đoạt giải ba cấp tỉnh được cộng bao nhiêu điểm khuyến khích khi xét công nhận tốt nghiệp THPT?",
+        "answer": "Thí sinh đoạt giải ba cấp tỉnh được cộng 1,0 điểm khuyến khích khi xét công nhận tốt nghiệp THPT [1], [2], [3], [4].",
+        "expected_source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+        "retrieved_sources": [
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+          "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G13",
+        "question": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành đào tạo được dùng mấy phương thức tuyển sinh?",
+        "answer": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành và chương trình đào tạo sẽ được áp dụng tối đa ba phương thức tuyển sinh [3], [4]. Tuy nhiên, cũng có thông tin cho biết Bộ dự kiến mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh [2].",
+        "expected_source": "news_01.md",
+        "retrieved_sources": [
+          "news_05.md",
+          "news_01.md",
+          "news_04.md",
+          "news_03.md",
+          "news_03.md"
+        ],
+        "top_score": 0.032018442622950824,
+        "context_recall": 1.0,
+        "context_precision": 0.5,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G14",
+        "question": "Dự kiến từ năm 2027, thí sinh còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi không?",
+        "answer": "Theo dự kiến của Bộ Giáo dục và Đào tạo, từ năm 2027, thí sinh sẽ không còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học [1]. Bộ dự kiến chỉ giữ lại điểm ưu tiên theo khu vực và đối tượng chính sách, đồng thời các trường không được phép tự quy định điểm cộng cho thành tích, chứng chỉ hoặc các tiêu chí bổ sung [5].",
+        "expected_source": "news_02.md",
+        "retrieved_sources": [
+          "news_02.md",
+          "news_06.md",
+          "news_02.md",
+          "news_01.md",
+          "news_02.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      },
+      {
+        "id": "G15",
+        "question": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ yêu cầu bao nhiêu phần trăm số trường đang đào tạo ngành đó phải đề xuất?",
+        "answer": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất [1].",
+        "expected_source": "news_07.md",
+        "retrieved_sources": [
+          "news_07.md",
+          "news_01.md",
+          "news_07.md",
+          "news_02.md",
+          "thong-tu-06-2026-quy-che-tuyen-sinh.md"
+        ],
+        "top_score": 0.03278688524590164,
+        "context_recall": 1.0,
+        "context_precision": 1.0,
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0
+      }
+    ],
+    "overall": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8666666666666667,
+      "context_recall": 0.8469133333333333,
+      "context_precision": 0.7888866666666666
+    }
+  },
+  "stopped": null,
+  "quota_used": 60,
+  "context_metric_method": {
+    "window_chars": 30,
+    "step_chars": 10,
+    "relevant_threshold": 0.3,
+    "recall": "do phu hop nhat cua top-k voi expected_context",
+    "precision": "Average Precision@k, chunk lien quan khi do phu rieng >= 0.30"
+  }
+}
