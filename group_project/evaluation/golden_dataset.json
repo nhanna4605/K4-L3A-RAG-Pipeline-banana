@@ -1,0 +1,137 @@
+[
+  {
+    "id": "G01",
+    "owner": "2A202602770",
+    "question": "Một cơ sở đào tạo được sử dụng tối đa bao nhiêu phương thức tuyển sinh?",
+    "expected_answer": "Tối đa 05 phương thức tuyển sinh, không tính xét tuyển thẳng, xét tuyển đối tượng cử tuyển và xét tuyển đối tượng dự bị đại học.",
+    "expected_context": "Cơ sở đào tạo sử dụng tối đa 05 phương thức tuyển sinh không bao gồm xét tuyển thẳng, xét tuyển đối tượng cử tuyển, xét tuyển đối tượng dự bị đại học.",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 6 khoản 1"
+  },
+  {
+    "id": "G02",
+    "owner": "2A202602770",
+    "question": "Mức điểm ưu tiên khu vực đối với KV1, KV2-NT, KV2 và KV3 là bao nhiêu?",
+    "expected_answer": "Khu vực 1 (KV1) được 0,75 điểm; khu vực 2 nông thôn (KV2-NT) được 0,50 điểm; khu vực 2 (KV2) được 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên.",
+    "expected_context": "Mức điểm ưu tiên áp dụng cho khu vực 1 (KV1) là 0,75 điểm, khu vực 2 nông thôn (KV2-NT) là 0,50 điểm, khu vực 2 (KV2) là 0,25 điểm; khu vực 3 (KV3) không được tính điểm ưu tiên",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 7 khoản 1 điểm a"
+  },
+  {
+    "id": "G03",
+    "owner": "2A202602770",
+    "question": "Khu vực tuyển sinh của thí sinh được xác định dựa vào đâu?",
+    "expected_answer": "Xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề). Nếu thời gian học dài nhất tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng.",
+    "expected_context": "Khu vực tuyển sinh của mỗi thí sinh được xác định theo địa điểm trường mà thí sinh đã học lâu nhất trong thời gian học cấp THPT (hoặc trung cấp, trung học nghề); nếu thời gian học (dài nhất) tại các khu vực tương đương nhau thì xác định theo khu vực của trường mà thí sinh theo học sau cùng",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 7 khoản 1 điểm b"
+  },
+  {
+    "id": "G04",
+    "owner": "2A202602770",
+    "question": "Tổng điểm cộng gồm điểm thưởng và điểm khuyến khích bị giới hạn ở mức nào?",
+    "expected_answer": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng và điểm khuyến khích không được vượt quá 10% điểm tối đa của thang điểm xét tuyển.",
+    "expected_context": "Tổng điểm cộng bao gồm điểm thưởng, điểm xét thưởng, điểm khuyến khích không vượt quá 10% điểm tối đa của thang điểm xét tuyển",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 6 khoản 2 điểm c"
+  },
+  {
+    "id": "G05",
+    "owner": "2A202602770",
+    "question": "Điểm xét tuyển tối đa của tổ hợp 3 môn là bao nhiêu, đã gồm điểm cộng và điểm ưu tiên chưa?",
+    "expected_answer": "Thang điểm xét là 30 điểm đối với tổ hợp xét tuyển theo 03 môn, và không thí sinh nào được có điểm xét vượt quá 30 điểm, đã bao gồm cả điểm cộng và điểm ưu tiên.",
+    "expected_context": "Mỗi thí sinh đều có cơ hội đạt mức điểm tối đa theo thang điểm xét 30 điểm đối với tổ hợp xét tuyển theo 03 môn và bảo đảm không có thí sinh có điểm xét vượt quá mức điểm 30 điểm (bao gồm cả điểm cộng và điểm ưu tiên",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 6 khoản 2 điểm d"
+  },
+  {
+    "id": "G06",
+    "owner": "2A202602993",
+    "question": "Ai quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên?",
+    "expected_answer": "Bộ trưởng Bộ Giáo dục và Đào tạo quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên.",
+    "expected_context": "Bộ trưởng Bộ GDĐT quyết định ngưỡng đầu vào đối với chương trình đào tạo giáo viên",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 9 khoản 1 điểm a"
+  },
+  {
+    "id": "G07",
+    "owner": "2A202602993",
+    "question": "Những đối tượng nào được xét tuyển thẳng theo quy chế tuyển sinh?",
+    "expected_answer": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân và Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+    "expected_context": "Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc được tuyển thẳng vào các chương trình đào tạo do cơ sở đào tạo quy định.",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 8 khoản 1"
+  },
+  {
+    "id": "G08",
+    "owner": "2A202602993",
+    "question": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trong trường hợp nào?",
+    "expected_answer": "Được bảo lưu khi đi nghĩa vụ quân sự, công an nhân dân hoặc thanh niên xung phong tập trung ngay trong năm trúng tuyển theo quyết định của cơ quan có thẩm quyền; hoặc bị bệnh nặng, tai nạn nghiêm trọng không thể nhập học đúng hạn.",
+    "expected_context": "Thí sinh đã có giấy báo trúng tuyển được bảo lưu kết quả trúng tuyển trong những trường hợp sau: a) Đi nghĩa vụ quân sự, công an nhân dân hoặc đi thanh niên xung phong tập trung ngay trong năm trúng tuyển",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 10 khoản 1"
+  },
+  {
+    "id": "G09",
+    "owner": "2A202602993",
+    "question": "Nếu phương thức xét tuyển không thể hiện được yêu cầu về kiến thức nền tảng thì thí sinh phải đáp ứng điều kiện gì?",
+    "expected_answer": "Thí sinh phải có kết quả học tập tối thiểu 02 học kỳ lớp 12, hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo, trừ trường hợp xét tuyển vào ngành ngôn ngữ hoặc sư phạm ngoại ngữ.",
+    "expected_context": "người dự tuyển phải có kết quả học tập tối thiểu 02 học kỳ lớp 12 hoặc có điểm thi tốt nghiệp THPT môn học phù hợp với yêu cầu đầu vào của chương trình đào tạo trừ trường hợp xét tuyển vào các ngành ngôn ngữ hoặc sư phạm ngoại ngữ",
+    "source": "thong-tu-06-2026-quy-che-tuyen-sinh.md",
+    "reference": "Điều 6 khoản 2 điểm b"
+  },
+  {
+    "id": "G10",
+    "owner": "2A202602993",
+    "question": "Thí sinh nộp đơn phúc khảo bài thi tốt nghiệp THPT trong thời hạn bao lâu kể từ ngày công bố điểm thi?",
+    "expected_answer": "Nơi thí sinh đăng ký dự thi nhận đơn phúc khảo trong thời hạn 05 ngày kể từ ngày công bố điểm thi.",
+    "expected_context": "Nơi thí sinh ĐKDT nhận đơn phúc khảo của thí sinh trong thời hạn 05 ngày kể từ ngày công bố điểm thi",
+    "source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+    "reference": "Quy chế thi tốt nghiệp THPT, mục phúc khảo"
+  },
+  {
+    "id": "G11",
+    "owner": "2A202602752",
+    "question": "Sau khi hết hạn nhận đơn phúc khảo, hội đồng thi phải hoàn thành việc chấm phúc khảo trong bao lâu?",
+    "expected_answer": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo.",
+    "expected_context": "Trong thời hạn 15 ngày kể từ ngày hết hạn nhận đơn phúc khảo",
+    "source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+    "reference": "Quy chế thi tốt nghiệp THPT, mục phúc khảo"
+  },
+  {
+    "id": "G12",
+    "owner": "2A202602752",
+    "question": "Thí sinh đoạt giải ba cấp tỉnh được cộng bao nhiêu điểm khuyến khích khi xét công nhận tốt nghiệp THPT?",
+    "expected_answer": "Được cộng 1,0 điểm khuyến khích.",
+    "expected_context": "giải ba cấp tỉnh được cộng 1,0 điểm",
+    "source": "vbhn-02-2026-quy-che-thi-tot-nghiep-thpt.md",
+    "reference": "Quy chế thi tốt nghiệp THPT, mục điểm khuyến khích"
+  },
+  {
+    "id": "G13",
+    "owner": "2A202602752",
+    "question": "Theo dự kiến của Bộ Giáo dục và Đào tạo cho năm 2027, mỗi ngành đào tạo được dùng mấy phương thức tuyển sinh?",
+    "expected_answer": "Theo dự thảo, các trường được dùng tối đa 5 phương thức nhưng mỗi ngành hoặc chương trình đào tạo chỉ được dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+    "expected_context": "Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.",
+    "source": "news_01.md",
+    "reference": "VnExpress, dự kiến siết phương thức xét tuyển đại học 2027"
+  },
+  {
+    "id": "G14",
+    "owner": "2A202602752",
+    "question": "Dự kiến từ năm 2027, thí sinh còn được cộng điểm cho chứng chỉ IELTS hay giải học sinh giỏi không?",
+    "expected_answer": "Không. Theo dự kiến của Bộ Giáo dục và Đào tạo, từ năm 2027 thí sinh không còn được cộng tối đa 3 điểm cho chứng chỉ IELTS hay giải học sinh giỏi; chỉ còn điểm ưu tiên theo khu vực và đối tượng chính sách.",
+    "expected_context": "Thí sinh không còn được cộng tối đa 3 điểm với chứng chỉ IELTS hay giải học sinh giỏi khi xét tuyển đại học từ năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.",
+    "source": "news_02.md",
+    "reference": "VnExpress, dự kiến bỏ điểm cộng IELTS"
+  },
+  {
+    "id": "G15",
+    "owner": "2A202602752",
+    "question": "Để đổi tên hoặc bỏ một ngành đào tạo, Bộ yêu cầu bao nhiêu phần trăm số trường đang đào tạo ngành đó phải đề xuất?",
+    "expected_answer": "Cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+    "expected_context": "Để đổi tên hay bỏ một ngành, Bộ quy định cần ít nhất 75% số trường đang đào tạo ngành đó ở Việt Nam đề xuất.",
+    "source": "news_07.md",
+    "reference": "VnExpress, sắp xếp đổi tên hàng loạt ngành ở đại học"
+  }
+]

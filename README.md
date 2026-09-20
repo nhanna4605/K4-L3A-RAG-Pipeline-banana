@@ -1,6 +1,38 @@
-# Day 8 — RAG Pipeline
+# Day 8 — RAG Pipeline — Nhóm banana
 
-## Mục tiêu
+Chatbot RAG trả lời câu hỏi về **quy chế và phương thức xét tuyển đại học Việt Nam 2025–2026**.
+
+| Thành viên | MSV | Phụ trách |
+| ---------- | --- | --------- |
+| Võ Doanh Nhân | 2A202602770 | Task 4–7: chunking, indexing, dense search, BM25, RRF |
+| Ngô Minh Trí | 2A202602993 | Task 8–10 + `app.py`: fallback, pipeline, generation, UI |
+| Đào Đức Hải | 2A202602752 | Task 1–3: thu thập và chuẩn hoá corpus; evaluation |
+
+## Corpus
+
+| Loại | Số lượng | Nguồn |
+| ---- | -------: | ----- |
+| Văn bản pháp luật | 3 PDF | `datafiles.chinhphu.vn` — Thông tư 06/2026, Thông tư 06/2025, VBHN 02/2026 về quy chế thi tốt nghiệp THPT |
+| Bài viết | 9 | VnExpress, chọn tay về chính sách tuyển sinh |
+
+Không dùng đề án tuyển sinh của từng trường: các đề án đều là bản scan ảnh nên
+bóc ra 0 ký tự text. Chi tiết và cách kiểm tra tài liệu trước khi nhận vào
+corpus nằm trong [docs/HAI_HANDOFF.md](docs/HAI_HANDOFF.md).
+
+## Cấu hình đã dùng
+
+| Tham số | Giá trị |
+| ------- | ------- |
+| Embedding | `BAAI/bge-m3` (local, 1024 chiều) |
+| Chunking | recursive, 500 ký tự, overlap 50 |
+| Vector store | ChromaDB, cosine |
+| Generation | Gemini `gemini-3.6-flash` |
+| `SCORE_THRESHOLD` | 0.51 — hiệu chỉnh trên corpus thật, xem `RESULT.md` |
+
+Mạng chập chờn thì đặt `HF_HUB_OFFLINE=1` sau khi đã tải model lần đầu, tránh
+`sentence-transformers` gọi HF Hub kiểm tra cập nhật.
+
+## Mục tiêu bài lab
 
 Mỗi nhóm xây dựng một chatbot RAG trả lời câu hỏi từ bộ tài liệu do nhóm thu thập. Sản phẩm phải có hybrid retrieval, citation, giao diện chat và báo cáo đánh giá.
 
