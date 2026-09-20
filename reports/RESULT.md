@@ -1,60 +1,20 @@
 # RAG evaluation results
 
-## Run information
+Báo cáo đánh giá của nhóm nằm ở **[`group_project/evaluation/RESULT.md`](../group_project/evaluation/RESULT.md)**.
 
-| Field                              | Value |
-| ---------------------------------- | ----- |
-| Evaluation date                    | TODO  |
-| Framework and version              | TODO  |
-| Evaluator model                    | TODO  |
-| Generator model                    | TODO  |
-| Embedding model                    | TODO  |
-| Corpus version/commit              | TODO  |
-| Golden dataset size                | TODO  |
-| `top_k`                            | TODO  |
-| Fallback threshold and calibration | TODO  |
+File này là bản sao template có sẵn trong repo gốc. Nhóm giữ lại một bản duy nhất
+trong `group_project/evaluation/` theo đúng danh mục sản phẩm phải nộp trong README,
+để tránh hai bản số liệu lệch nhau.
 
-## Configurations
+Dữ liệu thô và script tái lập kết quả cũng nằm cùng thư mục đó:
 
-- **Config A — dense-only:** TODO
-- **Config B — hybrid + RRF:** TODO
-
-Hai config phải dùng cùng golden dataset, generator, evaluator, prompt và `top_k`; chỉ thay retrieval strategy.
-
-## Overall scores
-
-| Metric            | Config A | Config B | Delta B−A |
-| ----------------- | -------: | -------: | --------: |
-| Faithfulness      |     TODO |     TODO |      TODO |
-| Answer relevance  |     TODO |     TODO |      TODO |
-| Context recall    |     TODO |     TODO |      TODO |
-| Context precision |     TODO |     TODO |      TODO |
-| **Average**       |     TODO |     TODO |      TODO |
-
-## A/B comparison
-
-- Cấu hình tốt hơn: TODO
-- Evidence: TODO
-- Trade-off về latency/cost: TODO
-
-## Worst performers
-
-|   # | Question | Config | Faithfulness | Relevance | Recall | Precision | Failure stage             | Root cause |
-| --: | -------- | ------ | -----------: | --------: | -----: | --------: | ------------------------- | ---------- |
-|   1 | TODO     | TODO   |         TODO |      TODO |   TODO |      TODO | retrieval/generation/data | TODO       |
-|   2 | TODO     | TODO   |         TODO |      TODO |   TODO |      TODO | retrieval/generation/data | TODO       |
-|   3 | TODO     | TODO   |         TODO |      TODO |   TODO |      TODO | retrieval/generation/data | TODO       |
-
-## Recommendations
-
-| Priority | Action | Evidence from failure analysis | Expected impact | How to verify |
-| -------: | ------ | ------------------------------ | --------------- | ------------- |
-|        1 | TODO   | TODO                           | TODO            | TODO          |
-|        2 | TODO   | TODO                           | TODO            | TODO          |
-|        3 | TODO   | TODO                           | TODO            | TODO          |
-
-## Bonus experiments
-
-| Experiment | Baseline | Metric delta | Latency/cost delta | Conclusion |
-| ---------- | -------- | -----------: | -----------------: | ---------- |
-| TODO       | TODO     |         TODO |               TODO | TODO       |
+| File | Nội dung |
+| ---- | -------- |
+| `RESULT.md` | Báo cáo đánh giá đã điền đầy đủ |
+| `golden_dataset.json` | 15 câu hỏi vàng kèm `expected_context` |
+| `retrieval_ab.json` | Kết quả retrieval thô của hai config |
+| `eval_raw.json` | Câu trả lời sinh ra và điểm từng câu |
+| `phase1_retrieve.py` | Chạy retrieval cho Config A và B |
+| `phase2_score.py` | Sinh câu trả lời và chấm 4 metric |
+| `recompute_context.py` | Tính lại context recall/precision |
+| `rotation.py` | Xoay vòng (API key, model) để vượt giới hạn quota |
