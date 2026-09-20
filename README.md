@@ -26,7 +26,7 @@ corpus nằm trong [docs/HAI_HANDOFF.md](docs/HAI_HANDOFF.md).
 | Embedding | `BAAI/bge-m3` (local, 1024 chiều) |
 | Chunking | recursive, 500 ký tự, overlap 50 |
 | Vector store | ChromaDB, cosine |
-| Generation | Gemini `gemini-3.6-flash` |
+| Generation | Gemini `gemini-2.5-flash` |
 | `SCORE_THRESHOLD` | 0.51 — hiệu chỉnh trên corpus thật, xem `RESULT.md` |
 
 Mạng chập chờn thì đặt `HF_HUB_OFFLINE=1` sau khi đã tải model lần đầu, tránh
