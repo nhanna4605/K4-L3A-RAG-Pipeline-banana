@@ -126,8 +126,12 @@ def _extract_title(text: str, fallback: str) -> str:
 
 
 def _extract_url(text: str) -> str | None:
-    """Đọc URL gốc từ header `**Source:**` do Task 3 sinh ra."""
-    match = re.search(r"^\*\*Source:\*\*\s*(\S+)", text, re.MULTILINE)
+    """Đọc URL gốc từ header `**Source:**` do Task 3 sinh ra.
+
+    Chấp nhận cả biến thể có khoảng trắng (`** Source :**`) vì Task 2/3 sinh ra
+    dạng này; khớp chặt theo đúng một format sẽ làm mất URL của toàn bộ news.
+    """
+    match = re.search(r"^\*\*\s*Source\s*:\s*\*\*\s*(\S+)", text, re.MULTILINE)
     return match.group(1).strip() if match else None
 
 
