@@ -1,0 +1,40 @@
+# Dự kiến siết phương thức xét tuyển đại học 2027
+
+**Source:** https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397.html
+
+**Crawled:** 2026-09-20T17:41:43.014731
+
+---
+
+Dự kiến siết phương thức xét tuyển đại học 2027
+===============================================
+
+Các trường chỉ được dùng một phương thức tuyển sinh ở một ngành, là thay đổi lớn nhất trong xét tuyển đại học năm 2027, theo dự kiến của Bộ Giáo dục và Đào tạo.
+
+**[Dự kiến bỏ điểm cộng IELTS và chứng chỉ quốc tế](https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html)**
+
+Nội dung trên nằm trong dự thảo thông tư sửa đổi, bổ sung một số quy định về việc xác định số lượng tuyển sinh, chương trình đào tạo, tuyển sinh và đào tạo đại học do Bộ công bố ngày 17/9.
+
+Cụ thể, Bộ dự kiến các trường đại học được sử dụng tối đa 5 phương thức, nhưng mỗi ngành, chương trình đào tạo chỉ dùng một phương thức tuyển sinh, không bao gồm xét tuyển thẳng và xét nhóm cử tuyển.
+
+Mỗi phương thức phải đảm bảo cơ hội cho tất cả thí sinh tham gia xét tuyển, quy định rõ các tiêu chí đánh giá, xét tuyển, cách thức tính điểm xét, bảo đảm chỉ có duy nhất một thang điểm.
+
+Ví dụ, trường đại học A khi tuyển sinh ngành Công nghệ thông tin chỉ được dùng một phương thức là xét điểm thi tốt nghiệp THPT, hoặc điểm thi đánh giá năng lực, hoặc học bạ, thay vì được dùng đồng thời như hiện nay.
+
+Theo nhận định ban đầu của một số chuyên gia, đây là điều chỉnh lớn nhất so với hiện tại, tác động "mạnh" đến công tác tuyển sinh của các trường và cả sự chuẩn bị, định hướng chọn ngành của thí sinh.
+
+Bộ cũng sắp xếp và đưa ra danh sách 11 phương thức xét tuyển, thay vì 19 phương thức như ở quy định cũ.
+
+**[Vì sao siết phương thức tuyển sinh đại học 2027?](https://vnexpress.net/siet-phuong-thuc-tuyen-sinh-dai-hoc-de-thi-sinh-giam-ganh-nang-5121541.html)**
+
+|  |
+| --- |
+|  |
+
+**[11 phương thức xét tuyển theo dự thảo của Bộ](https://vnexpress.net/du-kien-doi-cach-xet-tuyen-dai-hoc-2027-gioi-han-moi-nganh-chi-xet-bang-mot-phuong-thuc-5121397-p2.html "11 phương thức xét tuyển theo dự thảo của Bộ")**
+
+Bộ lấy ý kiến dự thảo đến ngày 23/9. Thông tư mới có hiệu lực ngay trong năm nay, đồng nghĩa áp dụng từ mùa tuyển sinh đại học năm 2027.
+
+Thí sinh thi tốt nghiệp THPT năm 2026 tại TP HCM. Ảnh: *Thanh Tùng*
+
+**Dương Tâm**

@@ -1,0 +1,68 @@
+# Nhiều học sinh lo mất lợi thế nếu bỏ cộng điểm IELTS
+
+**Source:** https://vnexpress.net/nhieu-hoc-sinh-lo-mat-loi-the-neu-bo-cong-diem-ielts-5122195.html
+
+**Crawled:** 2026-09-20T17:41:46.108919
+
+---
+
+Nhiều học sinh lo mất lợi thế nếu bỏ cộng điểm IELTS
+====================================================
+
+Nghe dự kiến bỏ điểm cộng với IELTS khi xét tuyển đại học, Hồng Minh sốc vì chứng chỉ 6.5 sau hai năm ôn luyện có thể không tạo ra lợi thế cạnh tranh nào.
+
+Minh, học sinh lớp 12 tại TP HCM, đầu tư ôn luyện IELTS từ năm lớp 10 nhằm tăng lợi thế xét tuyển vào chuyên ngành Khoa học chính trị hoặc Quan hệ quốc tế của trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia TP HCM.
+
+Mùa tuyển sinh vừa qua, trường này không quy đổi IELTS thành điểm môn tiếng Anh nhưng cộng 3/100 điểm với mức 5.5 trở lên. Thành phần điểm xét tuyển gồm học lực (điểm thi tốt nghiệp THPT, học bạ, thi đánh giá năng lực), điểm cộng và ưu tiên đối tượng.
+
+"Vì không có điểm ưu tiên, em thi chứng chỉ ngoại ngữ để cạnh tranh", Minh nói.
+
+Tuy nhiên, Bộ Giáo dục và Đào tạo dự kiến từ năm 2027 sẽ chỉ còn điểm ưu tiên khu vực và đối tượng, các trường không được tự đặt ra điểm cộng cho thành tích, chứng chỉ. Hiện điểm cộng với chứng chỉ như IELTS tối đa là 1,5/30.
+
+"Nếu vậy, chứng chỉ mà em cố giành được có nguy cơ vô ích khi xét tuyển", Minh lo lắng.
+
+Nguyễn Hoàng, học sinh lớp 12 tại Hà Nội, ôn luyện IELTS cách đây một năm. Chưa xác định vào ngành hay trường nào, nhưng tham khảo cách tuyển sinh hai năm qua, nam sinh nhận thấy IELTS hỗ trợ phần nào vào tổng điểm xét tuyển, khi mà đề thi tốt nghiệp THPT phân hóa mạnh, khó đạt điểm tuyệt đối.
+
+Hoàng thấy để được 9 điểm thi tiếng Anh rất khó khăn, nhưng đạt 8 rồi lấy thêm 1-1,5 điểm cộng nhờ IELTS 6.5 là trong tầm tay.
+
+"Thế nên em mới đầu tư vào IELTS. Giờ bỏ điểm cộng em chưa biết phải làm gì", Hoàng nói.
+
+Lý giải, Bộ cho rằng việc [cộng điểm chứng chỉ quốc tế](https://vnexpress.net/du-kien-bo-diem-cong-ielts-giai-hoc-sinh-gioi-trong-xet-tuyen-dai-hoc-5121573.html) có thể tạo ra sự bất bình đẳng. Bởi cơ hội tiếp cận các chứng chỉ tùy thuộc điều kiện kinh tế, địa bàn sinh sống và khả năng chi trả của gia đình thí sinh.
+
+|  |
+| --- |
+|  |
+
+Việc này **tác động rất rõ** với học sinh lớp 11, 12 đã đầu tư nhiều thời gian, chi phí luyện thi IELTS để được cộng điểm, theo một số giáo viên.
+
+Thống kê của Bộ và một số trường cho thấy, nhóm này chủ yếu ở khu vực thành thị, đông nhất là Hà Nội và TP HCM. Như năm 2024 với khoảng 67.000 học sinh nộp chứng chỉ ngoại ngữ để được miễn thi tốt nghiệp môn tiếng Anh, hai thành phố này có lần lượt hơn 21.500 và 13.100 em.
+
+Một giáo viên tiếng Anh nhìn nhận có nhiều lý do khiến học sinh luyện thi IELTS, một bộ phận tìm kiếm lợi thế để vào nhóm trường top đầu.
+
+"Khi các trường có cơ chế cộng điểm cho thí sinh có IELTS, chắc chắn những em có điều kiện sẽ tận dụng để tăng cơ hội", cô nói.
+
+Dù đánh giá dự kiến của Bộ gây sốc với nhiều học sinh, các chuyên gia cho rằng về lâu dài, đây là thay đổi tích cực.
+
+Học sinh thi tốt nghiệp tại TP HCM, tháng 6/2026. Ảnh: *Quỳnh Trần*
+
+Theo TS Phạm Tấn Hạ, nguyên Phó hiệu trưởng trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia TP HCM, thay đổi này giúp hạn chế khoảng cách bất bình đẳng giữa học sinh đô thị và vùng khó khăn.
+
+Ông Đinh Đức Hiền, Giám đốc điều hành trường Phổ thông liên cấp FPT Bắc Giang, đồng tình. Bởi học sinh thành thị phần nào có lợi thế hơn về cơ hội tiếp cận môi trường ngoại ngữ, trung tâm luyện thi, khả năng chi trả học phí và thi nhiều lần....
+
+TS Hoàng Phương, trường Đại học Anh Quốc Việt Nam (BUV), đánh giá việc bỏ điểm cộng sẽ chấm dứt tình trạng điểm xét tuyển vượt quá thang chuẩn (ví dụ 31/30 điểm). Khi chứng chỉ ngoại ngữ về đúng chức năng của mình khi không còn được cộng điểm.
+
+"Đó là một thước đo năng lực ngôn ngữ hoặc tư duy chuẩn hóa, chứ không phải một loại 'quyền lực mềm' để lách qua các môn học cốt lõi khác", TS Phương nói.
+
+Việc này cũng buộc chiến lược của học sinh chuyển dịch từ "tích lũy điểm cộng và rải thảm" sang "định hướng sớm và tập trung thực chất".
+
+Có ý kiến lo ngại việc bỏ cộng điểm chứng chỉ ngoại ngữ sẽ khiến thí sinh lười học hay kéo lùi mặt bằng tiếng Anh, nhưng TS Phạm Tấn Hạ, không đồng tình. Nhiều năm làm tư vấn tuyển sinh, ông nhận thấy từ thế hệ Alpha ở các thành phố lớn (học sinh lớp 10-11 hiện nay) trở đi đã sử dụng tiếng Anh tương đối tốt. Phụ huynh và các em đều ý thức ngoại ngữ là cánh cổng hội nhập, tìm kiếm cơ hội tốt hơn nên trau dồi từ sớm chứ không đợi đến khi có điểm cộng "làm quà".
+
+Tuy nhiên, chuyên gia đều nhấn mạnh điểm mấu chốt nằm ở **lộ trình thực hiện**. TS Hạ cho rằng thay đổi cần được thông báo trước ít nhất 2-3 năm vì nhiều học sinh đã ôn luyện từ lớp 10.
+
+"Cần lấy các em làm trung tâm để xem xét quyết định", ông nhìn nhận.
+
+Bộ dự kiến vẫn quy đổi chứng chỉ IELTS thành điểm môn tiếng Anh. Theo ông Hiền, quy tắc quy đổi phải công khai, có căn cứ dữ liệu và có phương án tương đương cho học sinh không có điều kiện thi chứng chỉ quốc tế.
+
+"Sự bất bình đẳng khác sẽ được tạo ra nếu thay đổi mà không có lộ trình", Ngọc Ánh, học sinh lớp 12 ở Hà Nội, nói.
+
+**Dương Tâm - Lệ Hằng**

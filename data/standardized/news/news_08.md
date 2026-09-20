@@ -1,0 +1,30 @@
+# Giữ kỳ thi tốt nghiệp THPT với 'đa mục tiêu'
+
+**Source:** https://vnexpress.net/giu-ky-thi-tot-nghiep-thpt-voi-da-muc-tieu-5122460.html
+
+**Crawled:** 2026-09-20T17:41:47.466947
+
+---
+
+Giữ kỳ thi tốt nghiệp THPT với 'đa mục tiêu'
+============================================
+
+Kỳ thi tốt nghiệp THPT được giữ ổn định, vừa dùng xét tốt nghiệp, đánh giá chất lượng giáo dục, vừa có độ tin cậy để tuyển sinh đại học, cao đẳng, theo Bộ Giáo dục và Đào tạo.
+
+Báo cáo tại phiên giải trình sáng 20/9 tại Ủy ban Văn hóa và Xã hội của Quốc hội, Bộ này cho biết kỳ thi tốt nghiệp THPT theo chương trình phổ thông 2018 và được điều chỉnh qua nhiều giai đoạn theo hướng ngày càng gọn nhẹ, giảm áp lực và chi phí xã hội.
+
+Bộ nhấn mạnh đây là kỳ thi với đa mục tiêu: đánh giá kết quả học tập làm căn cứ xét công nhận tốt nghiệp; phục vụ đánh giá chất lượng giáo dục; có độ tin cậy để các cơ sở giáo dục đại học, nghề nghiệp sử dụng trong tuyển sinh.
+
+"Các cơ sở đào tạo được quyết định việc sử dụng kết quả kỳ thi hoặc các phương thức tuyển sinh khác theo quy định", trích báo cáo.
+
+Theo Bộ, ưu điểm của cách làm này là tổ chức thống nhất trên phạm vi toàn quốc nhưng thí sinh dự thi tại địa phương, giảm đáng kể chi phí đi lại, ăn ở và áp lực xã hội so với mô hình tổ chức nhiều kỳ thi trước đây. Bên cạnh đó, dữ liệu là cơ sở để đánh giá, đối sánh chất lượng giáo dục giữa các địa phương, cơ sở giáo dục và phục vụ công tác hoạch định chính sách.
+
+**[Dừng thí điểm thi tốt nghiệp THPT trên máy tính vào năm 2027](https://vnexpress.net/dung-thi-diem-thi-tot-nghiep-thpt-tren-may-tinh-nam-2027-5122463.html)**
+
+Việc một kỳ thi "gánh" nhiều mục tiêu là chủ đề được thảo luận nhiều năm qua, gây tranh cãi về độ phân hóa thí sinh, hay tình trạng nở rộ phương thức và quyền tự chủ tuyển sinh ở đại học.
+
+Hồi tháng 7, Chủ nhiệm Ủy ban Văn hóa và Xã hội Nguyễn Đắc Vinh đồng tình về ưu điểm của kỳ thi, song cũng cho rằng việc gộp chung đã xuất hiện bất cập. Thí sinh tham dự kỳ thi với mục tiêu đạt kết quả cao để tuyển vào trường đại học - là một trong những nguyên nhân dẫn đến tiêu cực.
+
+Học sinh Hà Nội thi tốt nghiệp THPT 2026. Ảnh: *Hoàng Giang*
+
+**Sơn Hà**
