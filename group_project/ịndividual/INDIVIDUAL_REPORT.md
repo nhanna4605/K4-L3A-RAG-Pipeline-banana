@@ -12,16 +12,18 @@ Giới hạn khuyến nghị: 1 trang, không chép lại README hoặc mô tả
 
 ## Thông tin
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Repository/branch:
+- Họ và tên: Đào Đức Hải
+- Mã học viên: 2A202602752
+- Nhóm: Banana (K4-L3A-RAG-Pipeline-banana)
+- Repository/branch: nhanna4605/K4-L3A-RAG-Pipeline-banana / nhánh `feat/data`
 
 ## Phần việc đã thực hiện
 
 | Module/deliverable | Việc tôi trực tiếp làm | File/commit/PR | Trạng thái |
 |---|---|---|---|
-| | | | Done / Partial / Blocked |
+| Data Pipeline (Thu thập và Chuẩn hóa) | Thiết kế script tải tài liệu pháp lý (PDF), crawl tin tức tuyển sinh (JSON), và parse tất cả sang Markdown đạt chuẩn định dạng. | `src/task1_collect_legal_docs.py`, `src/task2_crawl_news.py`, `src/task3_convert_markdown.py` | Done |
+| Document Quality Control & Validation | Xây dựng cổng kiểm tra dữ liệu đầu vào (Validation Gates) để lọc rác, check magic bytes và giới hạn ký tự. | `src/task1_collect_legal_docs.py`, `docs/HAI_HANDOFF.md` | Done |
+| Pipeline Evaluation & Golden Dataset | Trực tiếp đóng góp 5 câu hỏi vàng, chạy A/B testing so sánh phương pháp Dense-only với Hybrid + RRF, lập báo cáo kết quả. | `reports/RESULT.md` | Done |
 
 Chỉ kê khai công việc có thể đối chiếu bằng file, commit, pull request, test hoặc kết quả evaluation.
 
@@ -29,28 +31,32 @@ Chỉ kê khai công việc có thể đối chiếu bằng file, commit, pull r
 
 Mô tả tối đa hai quyết định mà bạn trực tiếp tham gia:
 
-1. **Quyết định:**  
-   **Lý do/evidence:**  
-   **Trade-off:**
+1. **Quyết định:** Chuyển đổi đề tài/nguồn tài liệu từ "Đề án tuyển sinh trường HUST" sang "Quy chế và phương thức xét tuyển đại học Việt Nam" (Văn bản Chính phủ).
+   **Lý do/evidence:** Đề án tuyển sinh của nhiều trường (như VinUni, NEU) được xuất bản dưới dạng file scan ảnh. Công cụ MarkItDown bóc tách ra 0 ký tự text. Các văn bản pháp luật từ `datafiles.chinhphu.vn` là file chữ thật, đảm bảo tỷ lệ extract text sạch và đủ dài.
+   **Trade-off:** Dữ liệu có thể mang tính vĩ mô (quy chế chung) thay vì giải quyết sâu vào đặc điểm tuyển sinh của riêng biệt một trường đại học.
 
-2. **Quyết định:**  
-   **Lý do/evidence:**  
-   **Trade-off:**
+2. **Quyết định:** Tích hợp các cổng kiểm tra lỗi ngầm định (Validation Gates) ngay trong các script tải dữ liệu.
+   **Lý do/evidence:** Hạn chế nhiễu corpus. Quá trình lấy data thực tế đã gặp các trường hợp server (như `moet.gov.vn`) trả status code HTTP 200 nhưng nội dung bên trong là file HTML chứa trang 404 báo lỗi (không bắt được bằng hàm `raise_for_status()`). Do đó cần bắt buộc dùng cơ chế đếm số ký tự extract (phải >500 ký tự) để quyết định giữ hay loại bỏ file.
+   **Trade-off:** Tăng khối lượng công việc kiểm duyệt (hardcode một vài rule theo cấu trúc lỗi của từng trang), và có thể loại bỏ nhầm các tài liệu quá ngắn dù thông tin bên trong hợp lệ.
 
 ## Kiểm thử và kết quả
 
-- Test hoặc query tôi đã dùng:
-- Kết quả trước/sau nếu có:
-- Lỗi đã phát hiện và cách xử lý:
+- Test hoặc query tôi đã dùng: Chạy bộ Acceptance test kiểm duyệt corpus tự động: `pytest tests/test_acceptance.py -q -k "corpus or standardized"`. Kèm theo script check md5sum để đảm bảo tính duy nhất: `md5sum data/standardized/legal/*.md`.
+- Kết quả trước/sau nếu có: Trước khi có các cổng kiểm tra, bộ test fail liên tục do lấy về phải các file lỗi (có file chưa tới 200 ký tự). Sau khi update, pipeline đã qua vòng kiểm duyệt và 100% tests Passed.
+- Lỗi đã phát hiện và cách xử lý: 
+  1. URL `ts.hust.edu.vn` trả HTTP 404 kèm trang HTML, không phải PDF.
+  2. Server `moet.gov.vn` trả HTTP 200 nhưng nội dung là trang báo lỗi.
+  3. Đề án tuyển sinh là bản scan ảnh, trích xuất ra 0 ký tự text.
+  **Cách xử lý:** Cài đặt hàm `verify_pdf()` kiểm tra magic bytes (`%PDF`) để loại bỏ file không đúng chuẩn PDF, đồng thời đếm lượng ký tự bóc tách được (loại bỏ nếu < 500 ký tự).
 
 ## Điều còn hạn chế
 
-- Một hạn chế cụ thể của phần tôi làm:
-- Nếu có thêm thời gian, thay đổi đầu tiên tôi sẽ thực hiện:
+- Một hạn chế cụ thể của phần tôi làm: Phần crawl tin tức giáo dục (VnExpress) vẫn còn dùng thư viện và parser phụ thuộc vào cấu trúc thẻ HTML tĩnh của từng domain báo. Nếu báo đổi layout, script bóc tách content dễ bị vỡ hoặc dính rác.
+- Nếu có thêm thời gian, thay đổi đầu tiên tôi sẽ thực hiện: Triển khai Generic Scraper kết hợp module LLM nhẹ để tự động phân tích DOM và bóc đúng khung nội dung chính thay vì fix cứng bằng BeautifulSoup/CSS selectors.
 
 ## Xác nhận đóng góp
 
 Tôi xác nhận nội dung trên phản ánh đúng phần việc của mình và có thể giải thích hoặc chạy lại trong buổi demo.
 
-- Ngày:
-- Tên thành viên:
+- Ngày: 20-09-2026
+- Tên thành viên: Đào Đức Hải
